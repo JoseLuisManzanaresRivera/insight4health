@@ -41,7 +41,7 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "/Health trends" # the subpath of your site, e.g. /blog
-url: "insight4health.netlify.com" # the base hostname & protocol for your site
+url: "https://joseluismanzanaresrivera.github.io/insight4health/" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category
