@@ -1,7 +1,7 @@
 # Site Settings
 name: Health Data México 
-title: insight4health | A blog theme for Jekyll
-description: insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.   
+title: insight4health | Information hub 
+description: insight4health is an iniciative created to provide  reliable high  quality  information focused on  public health trends in Mexico.   
 tags:
   - blog
   - template
@@ -9,7 +9,7 @@ tags:
   - theme
   - netlify
 email: jlmanzanares@colef.mx
-disqus_username: disqus_username
+disqus_username: disqus_username  4insight
 show_hero: true
 menu:
   - title: Home
@@ -24,7 +24,7 @@ menu:
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
+github_username: github_username  GitHub4insight
 facebook_username: facebook_username
 twitter_username: twitter_@JLManzanaresR
 instagram_username: instagram_username
@@ -98,6 +98,13 @@ exclude: [
   'gulpfile.js',
   'README.md'
 ]
+
+## Donation
+
+Did you like my work? Contribute and support insight4health research efforts. 
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=YT3BC53XLMJ96&lc=GB&item_name=Thiago%20Rossener%20Nogueira&item_number=DON1212&no_note=0&cn=Adicionar%20instru%c3%a7%c3%b5es%20especiais%20para%20o%20vendedor%3a&no_shipping=2&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
+
 
 # Theme
 version: v3.0.2
