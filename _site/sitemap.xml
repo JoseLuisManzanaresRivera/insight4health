@@ -187,34 +187,6 @@
     
     
         <url>
-            <loc>http://localhost:4000/far-far-away-behind-the-word-mountains/3/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2019-05-12</lastmod>
-        </url>
-    
-        <url>
-            <loc>http://localhost:4000/far-far-away-behind-the-word-mountains/2/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2019-05-12</lastmod>
-        </url>
-    
-        <url>
-            <loc>http://localhost:4000/far-far-away-behind-the-word-mountains/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2019-05-12</lastmod>
-        </url>
-    
-        <url>
-            <loc>http://localhost:4000/far-far-away-behind-the-word-mountains/view-all/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2019-05-12</lastmod>
-        </url>
-    
-        <url>
             <loc>http://localhost:4000/why-books-should-be-your-priority/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
