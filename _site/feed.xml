@@ -5,13 +5,13 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Mar 2020 21:25:09 -0700</pubDate>
-    <lastBuildDate>Wed, 11 Mar 2020 21:25:09 -0700</lastBuildDate>
+    <pubDate>Wed, 11 Mar 2020 21:29:37 -0700</pubDate>
+    <lastBuildDate>Wed, 11 Mar 2020 21:29:37 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Reliable information to improve health care outcomes.</title>
-        <description>&lt;p&gt;Insight4health provides a platform to analyze public health trends in Mexico. Currently Latin American countries represent a huge market in terms of health care information. Insight4health incorporates data science tools that transforms data from several sources, both public and private, into detailed input for decision making.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;p&gt;–page-break–&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;Insight4health was created...</description>
+        <description>&lt;p&gt;&lt;strong&gt;Insight4health&lt;/strong&gt; provides a platform to analyze public health trends in Mexico. Currently Latin American countries represent a huge market in terms of health care information. Insight4health incorporates data science tools that transforms data from several sources, both public and private, into detailed input for decision making.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;p&gt;–page-break–&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;Insight4health was created...</description>
         <pubDate>Sun, 12 May 2019 12:17:18 -0700</pubDate>
         <link>http://localhost:4000/The-market-value-of-health-information/</link>
         <guid isPermaLink="true">http://localhost:4000/The-market-value-of-health-information/</guid>

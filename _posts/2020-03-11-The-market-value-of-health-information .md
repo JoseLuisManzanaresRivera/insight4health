@@ -17,7 +17,7 @@ tags:
 author: José Luis Manzanares Rivera
 paginate: false
 ---
-Insight4health provides a platform to analyze public health trends in       Mexico. Currently Latin American countries represent a huge market in       terms of health care information. Insight4health incorporates data          science tools that transforms data from several sources, both  public and   private, into detailed input for decision making.
+**Insight4health** provides a platform to analyze public health trends in       Mexico. Currently Latin American countries represent a huge market in       terms of health care information. Insight4health incorporates data          science tools that transforms data from several sources, both  public and   private, into detailed input for decision making.
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
