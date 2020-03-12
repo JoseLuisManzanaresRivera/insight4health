@@ -1,21 +1,20 @@
 ---
 date: 2019-05-12T19:17:18.000Z
 layout: post
-title: Información confiable para la toma de decisiones en 
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+title: Reliable information to improve health care outcomes. 
+subtitle: Turning data into valuable knowledge: Examine health trends overtime and it's geographic patterns.  
 description: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
+  Insight4health provides a platform to analyze public health trends in Mexico. Currently Latin America countries represent a huge market in terms of health care information. Insight4health incorporates data science tools that transforms data from several sources, both  public and private, into detailed input for decision making.   
 image: >-
   https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821648/theme5_wmutla.jpg
 optimized_image: >-
   https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821648/theme5_wmutla.jpg
 category: travel
 tags:
-  - mountains
-  - travel
-  - adventure
-author: thiagorossener
+  - Big data
+  - Public Health
+  - Healh economics
+author: José Luis Manzanares Rivera
 paginate: true
 ---
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. _Aenean eu leo quam._ Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
@@ -28,7 +27,9 @@ Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur puru
 
 ## Inline HTML elements
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+Insight4health was created by  [José Luis Manzanares Rivera](https://www.colef.mx/posgrado/profesores/borrador-automatico-31/) as an effort to disseminate  research in the Health economics domain.  
+
+
 
 * **To bold text**, use `<strong>`.
 * _To italicize text_, use `<em>`.
