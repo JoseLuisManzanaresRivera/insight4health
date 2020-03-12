@@ -1,5 +1,5 @@
 ---
-date: 2020-03-12T19:17:18.000Z
+date: 2019-05-12T19:17:18.000Z
 layout: post
 title: Reliable information to improve health care outcomes. 
 subtitle: Turning data into valuable knowledge.  Explore health trends overtime and it's geographic patterns.
@@ -17,7 +17,7 @@ tags:
 author: José Luis Manzanares Rivera
 paginate: true
 ---
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. _Aenean eu leo quam._ Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+Insight4health provides a platform to analyze public health trends in       Mexico. Currently Latin American countries represent a huge market in       terms of health care information. Insight4health incorporates data          science tools that transforms data from several sources, both  public and   private, into detailed input for decision making.
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
