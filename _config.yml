@@ -1,15 +1,15 @@
 # Site Settings
-name: insight4health
-title: insight4health | Information hub 
-description: insight4health is an iniciative created to provide  reliable high  quality  information focused on  public health trends in Mexico.   
+name: Jekflix
+title: insight4health | A blog theme for Jekyll
+description: insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.   
 tags:
   - blog
   - template
   - jekyll
   - theme
   - netlify
-email: jlmanzanares@colef.mx
-disqus_username:   joseluismanzanaresrivera
+email: youremail@xyz.com
+disqus_username: disqus_username
 show_hero: true
 menu:
   - title: Home
@@ -24,9 +24,9 @@ menu:
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username:   GitHub4insight
+github_username: github_username
 facebook_username: facebook_username
-twitter_username:  JLManzanaresR
+twitter_username: twitter_username
 instagram_username: instagram_username
 linkedin_username: linkedin_username
 medium_username: medium_username
@@ -40,8 +40,8 @@ two_columns_layout: true
 
 
 # Advanced Settings
-baseurl: "https://insight4health.netlify.com/" # the subpath of your site, e.g. /blog
-url: "https://insight4health.netlify.com/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category
@@ -98,8 +98,6 @@ exclude: [
   'gulpfile.js',
   'README.md'
 ]
-
-
 
 # Theme
 version: v3.0.2
