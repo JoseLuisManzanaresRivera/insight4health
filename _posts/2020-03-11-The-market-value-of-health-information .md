@@ -9,13 +9,13 @@ image: >-
   https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821648/theme5_wmutla.jpg
 optimized_image: >-
   https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821648/theme5_wmutla.jpg
-category: travel
+category: Data Sciences
 tags:
   - Big data
   - Public Health
   - Healh economics
 author: José Luis Manzanares Rivera
-paginate: true
+paginate: false
 ---
 Insight4health provides a platform to analyze public health trends in       Mexico. Currently Latin American countries represent a huge market in       terms of health care information. Insight4health incorporates data          science tools that transforms data from several sources, both  public and   private, into detailed input for decision making.
 
