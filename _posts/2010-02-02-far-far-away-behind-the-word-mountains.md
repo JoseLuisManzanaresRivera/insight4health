@@ -5,7 +5,7 @@ title: Reliable information to improve health care outcomes.
 subtitle: Turning data into valuable knowledge: Examine health trends overtime and it's geographic patterns.
 
 description: >-
-  Insight4health provides a platform to analyze public health trends in Mexico. Currently Latin America countries represent a huge market in terms of health care information. Insight4health incorporates data science tools that transforms data from several sources, both  public and private, into detailed input for decision making.   
+   Insight4health provides a platform to analyze public health trends in       Mexico. Currently Latin America countries represent a huge market in        terms of health care information. Insight4health incorporates data          science tools that transforms data from several sources, both  public and    private, into detailed input for decision making.   
 image: >-
   https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821648/theme5_wmutla.jpg
 optimized_image: >-
