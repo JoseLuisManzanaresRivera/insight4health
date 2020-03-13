@@ -15,21 +15,21 @@ tags:
   - Public Health
   - Healh economics
 author: José Luis Manzanares Rivera
-paginate: false
+paginate: true
 ---
-**Insight4health** provides a platform to analyze public health trends in       Mexico. Currently Latin American countries represent a huge market in       terms of health care information. Insight4health incorporates data          science tools that transforms data from several sources, both  public and   private, into detailed input for decision making.
+**Insight4health** provides a platform to analyze public health trends in   Mexico. Currently Latin American countries represent a huge emerging market in terms of health care information. **Insight4health** incorporates data science tools that transforms data from several sources, both  public and private, into detailed input for acurate decision making.
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+>  Generating evidence that contributes to design strategies to efficiently allocate resources is a permanent task that is relevant particularly when dealing with high cost diseases. Having access to reliable information becomes key to achieve this goal.
 
 Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
 
 --page-break--
 
-## Inline HTML elements
+## UNleash data science potential to analyze public health patterns    
 
-Insight4health was created by  [José Luis Manzanares Rivera](https://www.colef.mx/posgrado/profesores/borrador-automatico-31/) as an effort to disseminate  research in the Health economics domain.  
+**Insight4health** was created by  [José Luis Manzanares Rivera](https://www.colef.mx/posgrado/profesores/borrador-automatico-31/) as an effort to disseminate  research in the Health economics domain.  
 
-
+From a social epidemiological prespective  we consider that time and space may contribute to undertand the causes of the causes of desease. 
 
 * **To bold text**, use `<strong>`.
 * _To italicize text_, use `<em>`.
