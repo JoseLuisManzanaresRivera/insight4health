@@ -1,20 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>insight4health | A blog theme for Jekyll</title>
+    <title>insight4health | Transforming data into strategic knowledge.</title>
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Mar 2020 21:43:54 -0700</pubDate>
-    <lastBuildDate>Wed, 11 Mar 2020 21:43:54 -0700</lastBuildDate>
+    <pubDate>Thu, 12 Mar 2020 19:51:21 -0700</pubDate>
+    <lastBuildDate>Thu, 12 Mar 2020 19:51:21 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Reliable information to improve health care outcomes.</title>
-        <description>&lt;p&gt;&lt;strong&gt;Insight4health&lt;/strong&gt; provides a platform to analyze public health trends in Mexico. Currently Latin American countries represent a huge market in terms of health care information. Insight4health incorporates data science tools that transforms data from several sources, both public and private, into detailed input for decision making.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Having evidence that contributes to desing strategies to eficinetly allocate resources de los recursos disponibles es una tarea continua que adquiere relevancia sobre todo con relación a aquellos padecimientos considerados de alto impacto.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed...</description>
+        <description>&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt; &lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt; &lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt; &lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt; &lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt; &lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt; &lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code class=&quot;highlighter-rouge&quot;&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt; &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;...</description>
+        <pubDate>Sun, 12 May 2019 12:17:18 -0700</pubDate>
+        <link>http://localhost:4000/The-market-value-of-health-information/3/</link>
+        <guid isPermaLink="true">http://localhost:4000/The-market-value-of-health-information/3/</guid>
+        
+        <category>Big data</category>
+        
+        <category>Public Health</category>
+        
+        <category>Healh economics</category>
+        
+        <category>Data Sciences</category>
+      </item>
+    
+      <item>
+        <title>Reliable information to improve health care outcomes.</title>
+        <description>&lt;h2 id=&quot;unleash-data-science-potential-to-analyze-public-health-patterns-&quot;&gt;UNleash data science potential to analyze public health patterns&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Insight4health&lt;/strong&gt; was created by &lt;a href=&quot;https://www.colef.mx/posgrado/profesores/borrador-automatico-31/&quot;&gt;José Luis Manzanares Rivera&lt;/a&gt; as an effort to disseminate research in the Health economics domain.&lt;/p&gt; &lt;p&gt;From a social epidemiological prespective we consider that time and space may contribute to undertand the causes of the causes of desease.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt; &lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt; &lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt; &lt;li&gt;Citations, like &lt;cite&gt;— Thiago Rossener&lt;/cite&gt;, should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt; &lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;del&amp;gt;&lt;/code&gt;...</description>
+        <pubDate>Sun, 12 May 2019 12:17:18 -0700</pubDate>
+        <link>http://localhost:4000/The-market-value-of-health-information/2/</link>
+        <guid isPermaLink="true">http://localhost:4000/The-market-value-of-health-information/2/</guid>
+        
+        <category>Big data</category>
+        
+        <category>Public Health</category>
+        
+        <category>Healh economics</category>
+        
+        <category>Data Sciences</category>
+      </item>
+    
+      <item>
+        <title>Reliable information to improve health care outcomes.</title>
+        <description>&lt;p&gt;&lt;strong&gt;Insight4health&lt;/strong&gt; provides a platform to analyze public health trends in Mexico. Currently Latin American countries represent a huge emerging market in terms of health care information. &lt;strong&gt;Insight4health&lt;/strong&gt; incorporates data science tools that transforms data from several sources, both public and private, into detailed input for acurate decision making.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Generating evidence that contributes to design strategies to efficiently allocate resources is a permanent task that is relevant particularly when dealing with high cost diseases. Having access to reliable information becomes key to achieve this goal.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum....</description>
         <pubDate>Sun, 12 May 2019 12:17:18 -0700</pubDate>
         <link>http://localhost:4000/The-market-value-of-health-information/</link>
         <guid isPermaLink="true">http://localhost:4000/The-market-value-of-health-information/</guid>
+        
+        <category>Big data</category>
+        
+        <category>Public Health</category>
+        
+        <category>Healh economics</category>
+        
+        <category>Data Sciences</category>
+      </item>
+    
+      <item>
+        <title>Reliable information to improve health care outcomes.</title>
+        <description>&lt;p&gt;&lt;strong&gt;Insight4health&lt;/strong&gt; provides a platform to analyze public health trends in Mexico. Currently Latin American countries represent a huge emerging market in terms of health care information. &lt;strong&gt;Insight4health&lt;/strong&gt; incorporates data science tools that transforms data from several sources, both public and private, into detailed input for acurate decision making.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Generating evidence that contributes to design strategies to efficiently allocate resources is a permanent task that is relevant particularly when dealing with high cost diseases. Having access to reliable information becomes key to achieve this goal.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum....</description>
+        <pubDate>Sun, 12 May 2019 12:17:18 -0700</pubDate>
+        <link>http://localhost:4000/The-market-value-of-health-information/view-all/</link>
+        <guid isPermaLink="true">http://localhost:4000/The-market-value-of-health-information/view-all/</guid>
         
         <category>Big data</category>
         
