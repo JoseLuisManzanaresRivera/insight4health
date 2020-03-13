@@ -15,7 +15,7 @@ tags:
   - Public Health
   - Healh economics
 author: José Luis Manzanares Rivera
-paginate: true
+paginate: false
 ---
 **Insight4health** provides a platform to analyze public health trends in   Mexico. Currently Latin American countries represent a huge emerging market in terms of health care information. **Insight4health** incorporates data science tools that transforms data from several sources, both  public and private, into detailed input for acurate decision making.
 
