@@ -101,10 +101,11 @@ exclude: [
 
 ## Donation
 
- 
+ Donation: [
 
-:[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=YT3BC53XLMJ96&lc=GB&item_name=Thiago%20Rossener%20Nogueira&item_number=DON1212&no_note=0&cn=Adicionar%20instru%c3%a7%c3%b5es%20especiais%20para%20o%20vendedor%3a&no_shipping=2&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=YT3BC53XLMJ96&lc=GB&item_name=Thiago%20Rossener%20Nogueira&item_number=DON1212&no_note=0&cn=Adicionar%20instru%c3%a7%c3%b5es%20especiais%20para%20o%20vendedor%3a&no_shipping=2&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
 Actualmente Exploradores es una organización conformada por habitantes de Monte Escobdedo, cuya pasión por la naturaleza y amor por esta tierra los ha llevado a emprender iniciativas para la preservación de la biodiversidad del Municipio. Entre las actividades que EXPLORADORES  realiza se encuentra la creación de un acervo digital sobre las especies de flora y fauna de este territorio. El trabajo de documentar en imágenes los tesoros de Monte Escobedo es realizado por Sergio Carrillo Sánchez. La recolección y sistematización de estas imágenes requiere tiempo, si bien la pasión por la naturaleza.
+]
 # Theme
 version: v3.0.2
