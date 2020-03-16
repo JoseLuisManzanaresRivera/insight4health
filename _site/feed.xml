@@ -5,13 +5,13 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Mar 2020 17:45:40 -0700</pubDate>
-    <lastBuildDate>Sun, 15 Mar 2020 17:45:40 -0700</lastBuildDate>
+    <pubDate>Sun, 15 Mar 2020 17:47:33 -0700</pubDate>
+    <lastBuildDate>Sun, 15 Mar 2020 17:47:33 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Reliable information to improve health care outcomes.</title>
-        <description>&lt;p&gt;&lt;strong&gt;Insight4health&lt;/strong&gt; provides a platform to analyze public health trends in Mexico. Currently Latin American countries represent a huge emerging market in terms of health care information. &lt;strong&gt;Insight4health&lt;/strong&gt; incorporates data science tools that transforms data from several sources, both public and private, into detailed input for acurate decision making.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Generating evidence that contributes to design strategies to efficiently allocate resources is a permanent task that is relevant particularly when dealing with high cost diseases. Having access to reliable information becomes key to achieve this goal.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;unleash-data-science-potential-to-analyze-public-health-patterns&quot;&gt;Unleash data science potential to analyze public health patterns.&lt;/h2&gt; &lt;p&gt;We incorporate a data...</description>
+        <description>&lt;p&gt;&lt;strong&gt;Insight4health&lt;/strong&gt; provides a platform to analyze public health trends in Mexico. Currently Latin American countries represent a huge emerging market in terms of health care information. &lt;strong&gt;Insight4health&lt;/strong&gt; incorporates data science tools that transforms data from several sources, both public and private, into detailed input for acurate decision making.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;em&gt;Generating evidence that contributes to design strategies to efficiently allocate resources is a permanent task that is relevant particularly when dealing with high cost diseases. Having access to reliable information becomes key to achieve this goal&lt;/em&gt;.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;unleash-data-science-potential-to-analyze-public-health-patterns&quot;&gt;Unleash data science potential to analyze public health patterns.&lt;/h2&gt; &lt;p&gt;We incorporate a data...</description>
         <pubDate>Sun, 12 May 2019 12:17:18 -0700</pubDate>
         <link>http://localhost:4000/The-market-value-of-health-information/</link>
         <guid isPermaLink="true">http://localhost:4000/The-market-value-of-health-information/</guid>
