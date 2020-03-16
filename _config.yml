@@ -9,7 +9,7 @@ tags:
   - theme
   - netlify
 email: jlmanzanaresrivera@gmail.com
-disqus_shortname:"4insight"
+disqus_username:4insight
 show_hero: true
 menu:
   - title: Home
