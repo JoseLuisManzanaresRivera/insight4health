@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Mar 2020 22:39:39 -0700</pubDate>
-    <lastBuildDate>Sun, 15 Mar 2020 22:39:39 -0700</lastBuildDate>
+    <pubDate>Sun, 15 Mar 2020 22:43:50 -0700</pubDate>
+    <lastBuildDate>Sun, 15 Mar 2020 22:43:50 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -27,7 +27,7 @@
     
       <item>
         <title>20 years of Type II Diabetes mortality at Mexican border states.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://diabetes-en-las-fronteras.netlify.com/&quot;&gt;Get free acces to report&lt;/a&gt;&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;!--page--&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt; &lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt; &lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should...</description>
+        <description>&lt;p&gt;&lt;a href=&quot;https://diabetes-en-las-fronteras.netlify.com/&quot;&gt;Get free acces to report&lt;/a&gt;&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Despite the importance of geographic location to explain this epidemic, in the past decades the study of biological risk factors has been the dominant paradigm (Graves and Kayal, 2008; Stolar 2010).&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Although diabetes is a major public health problem in Mexico previously thought to be related to population with relative higher income levels or affluent, recent studies had suggested an epidemiological transition impacting individuals in lower income regions. Studies conducted with a focus on the Mexican population suggest that this transition may be linked to nutritional changes (Seuring, Goryakin &amp;amp; Suhrcke, 2015)....</description>
         <pubDate>Thu, 22 Nov 2018 05:26:40 -0700</pubDate>
         <link>http://localhost:4000/Diabetes/</link>
         <guid isPermaLink="true">http://localhost:4000/Diabetes/</guid>
