@@ -1,16 +1,16 @@
 ---
 date: 2018-10-09 12:26:40
 layout: post
-title: The quick brown fox jumps over a lazy dog
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1506079212/jekflix-capa_vfhuzh.png
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1506079212/jekflix-capa_vfhuzh.png
-category: css
+title: Public health expressions in the  context of Mexican urban expansion.
+subtitle: Allergic rhinitis hospital discharges in metropolitan areas..
+description: Rhinitis (J31), is a global public health problem of growing incidence that often has been associated to factors such as the population transition to urban areas (González-Díaz et al. 2016), particularly considering environmental externalities linked to air quality that urbanization processes generate.
+image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584401987/adi-constantin-C8Z5DvtWQMw-unsplash_hzh1le.jpg
+optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584401987/adi-constantin-C8Z5DvtWQMw-unsplash_hzh1le.jpg
+category: Rhinitis
 tags:
-  - css
-  - tips
-author: thiagorossener
+  - Air quality
+  - Pollution
+author: José Luis Manzanares Rivera
 ---
 
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
