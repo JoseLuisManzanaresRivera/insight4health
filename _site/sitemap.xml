@@ -194,6 +194,13 @@
         </url>
     
         <url>
+            <loc>http://localhost:4000/Diabetes/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2018-11-22</lastmod>
+        </url>
+    
+        <url>
             <loc>http://localhost:4000/the-quick-brown-fox-jumps-over-a-lazy-dog/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
