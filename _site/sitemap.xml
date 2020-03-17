@@ -201,7 +201,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/the-quick-brown-fox-jumps-over-a-lazy-dog/</loc>
+            <loc>http://localhost:4000/Rhinitis/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2018-10-09</lastmod>
