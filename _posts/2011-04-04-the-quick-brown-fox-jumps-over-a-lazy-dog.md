@@ -4,8 +4,8 @@ layout: post
 title: Public health expressions in the  context of Mexican urban expansion.
 subtitle: Allergic rhinitis hospital discharges in metropolitan areas..
 description: Rhinitis (J31), is a global public health problem of growing incidence that often has been associated to factors such as the population transition to urban areas (González-Díaz et al. 2016), particularly considering environmental externalities linked to air quality that urbanization processes generate.
-image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584401987/adi-constantin-C8Z5DvtWQMw-unsplash_hzh1le.jpg
-optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584401987/adi-constantin-C8Z5DvtWQMw-unsplash_hzh1le.jpg
+image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584403370/PLACAS2_elycb9.jpg
+optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584403370/PLACAS2_elycb9.jpg
 category: Rhinitis
 tags:
   - Air quality
