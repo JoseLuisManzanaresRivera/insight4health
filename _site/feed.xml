@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Mar 2020 19:13:22 -0700</pubDate>
-    <lastBuildDate>Mon, 16 Mar 2020 19:13:22 -0700</lastBuildDate>
+    <pubDate>Thu, 19 Mar 2020 20:16:17 -0700</pubDate>
+    <lastBuildDate>Thu, 19 Mar 2020 20:16:17 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -55,18 +55,18 @@
     
       <item>
         <title>A wonderful serenity has taken possession of my entire soul</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <description>&lt;blockquote&gt; &lt;p&gt;During the last 20 years, suicide as a death cause in Mexico, reach a 74.8% growth, which translates into a 3.74% annual increase rate. This pattern surpassed by 60% the dynamics observed by the overall causes of death.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;This report documents Mexico´s suicide evolution in time during the period 1998-2017 with a focus on &lt;strong&gt;Aguascalientes&lt;/strong&gt; State. The methodology is based on exploratory data analysis using public mortality records collected by the national system for health information for two different data structures, cross section and time series.&lt;/p&gt; &lt;p&gt;In addition, for the first time &lt;strong&gt;Google trends&lt;/strong&gt; data was collected to...</description>
         <pubDate>Fri, 20 Jul 2018 05:26:40 -0700</pubDate>
         <link>http://localhost:4000/a-wonderful-serenity-has-taken-possession-of-my-entire-soul/</link>
         <guid isPermaLink="true">http://localhost:4000/a-wonderful-serenity-has-taken-possession-of-my-entire-soul/</guid>
         
-        <category>platform</category>
+        <category>Mental Health</category>
         
-        <category>javascript</category>
+        <category>Depression</category>
         
-        <category>vscode</category>
+        <category>Google Trends</category>
         
-        <category>code</category>
+        <category>Suicice</category>
       </item>
     
       <item>
