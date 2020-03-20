@@ -1,7 +1,7 @@
 ---
 date: 2018-07-20 12:26:40
 layout: post
-title: A wonderful serenity has taken possession of my entire soul
+title: Suicide Mortality in México: Territorial Patterns, integrating google trends to improve understanding.
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584674032/ian-espinosa-rX12B5uX7QM-unsplash_fonlza.jpg
