@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Mar 2020 11:42:31 -0700</pubDate>
-    <lastBuildDate>Fri, 20 Mar 2020 11:42:31 -0700</lastBuildDate>
+    <pubDate>Fri, 20 Mar 2020 11:43:41 -0700</pubDate>
+    <lastBuildDate>Fri, 20 Mar 2020 11:43:41 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -55,7 +55,7 @@
     
       <item>
         <title>Suicide Mortality in México. Territorial Patterns, integrating google trends to improve understanding.</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;&lt;em&gt;“Too often health professionals are focused on what is simpler, that is treat a medical or mental illness, whereas facing suicide risk goes beyond the traditional approach and involves human understanding of suffering.”&lt;/em&gt;&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Maurizio Pompili.2018&lt;/p&gt; &lt;p&gt;During the last 20 years, suicide as a death cause in Mexico, reach a 74.8% growth, which translates into a 3.74% annual increase rate. This pattern surpassed by 60% the dynamics observed by the overall causes of death.&lt;/p&gt; &lt;p&gt;This report documents Mexico´s suicide evolution in time during the period 1998-2017 with a focus on &lt;strong&gt;Aguascalientes&lt;/strong&gt; State. The methodology is based on exploratory data...</description>
+        <description>&lt;blockquote&gt; &lt;p&gt;&lt;em&gt;“Too often health professionals are focused on what is simpler, that is treat a medical or mental illness, whereas facing suicide risk goes beyond the traditional approach and involves human understanding of suffering.”&lt;/em&gt; Maurizio Pompili. 2018&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;During the last 20 years, suicide as a death cause in Mexico, reach a 74.8% growth, which translates into a 3.74% annual increase rate. This pattern surpassed by 60% the dynamics observed by the overall causes of death.&lt;/p&gt; &lt;p&gt;This report documents Mexico´s suicide evolution in time during the period 1998-2017 with a focus on &lt;strong&gt;Aguascalientes&lt;/strong&gt; State. The methodology is based on exploratory...</description>
         <pubDate>Fri, 20 Jul 2018 05:26:40 -0700</pubDate>
         <link>http://localhost:4000/a-wonderful-serenity-has-taken-possession-of-my-entire-soul/</link>
         <guid isPermaLink="true">http://localhost:4000/a-wonderful-serenity-has-taken-possession-of-my-entire-soul/</guid>
