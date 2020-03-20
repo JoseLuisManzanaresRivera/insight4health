@@ -1,9 +1,9 @@
 ---
 date: 2018-07-20 12:26:40
 layout: post
-title: Suicide Mortality in México. Territorial Patterns, integrating google trends to improve understanding.
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+title: Suicide Mortality in México. studying Territorial Patterns.
+subtitle: Integrating google trends to improve understanding.
+description: According to the World Health Organization  (WHO), the severity of social impacts due to loss of premature lives, as well as the complexity of causes that include mental health conditions such as depression, demonstrate  the need to conduct studies that explain this phenomenon.
 image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584674032/ian-espinosa-rX12B5uX7QM-unsplash_fonlza.jpg
 optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584674032/ian-espinosa-rX12B5uX7QM-unsplash_fonlza.jpg
 category: Suicice
