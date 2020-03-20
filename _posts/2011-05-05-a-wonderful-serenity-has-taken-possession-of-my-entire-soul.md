@@ -14,7 +14,8 @@ tags:
 author: José Luis Manzanares Rivera.
 ---
 
-> Too often health professionals are focused on what is simpler, that is treat a medical or mental illness, whereas facing suicide risk goes beyond the traditional approach and involves human understanding of suffering.”
+> *"Too often health professionals are focused on what is simpler, that is treat a medical or mental illness, whereas facing suicide risk goes beyond the traditional approach and involves human understanding of suffering.”*
+
 Maurizio Pompili.2018
 
 During the last 20 years, suicide as a death cause in Mexico, reach a 74.8% growth, which translates into a 3.74% annual increase rate. This pattern surpassed by 60% the dynamics observed by the overall causes of death. 
