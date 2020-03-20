@@ -29,7 +29,3 @@ Results provide current information from a geographic perspective useful to desi
 
 [Get free acces to report](https://suicidio2019.netlify.com/)
 
-
-References. 
-
-POMPILI, M. (2018), [Reflections of a Committed Suicidologist](https://link.springer.com/chapter/10.1007/978-3-319-47976-7_2). In M. Pompili (Ed.), Phenomenology of Suicide: Springer, Cham.
