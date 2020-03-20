@@ -1,7 +1,7 @@
 ---
 date: 2018-07-20 12:26:40
 layout: post
-title: Suicide Mortality in México: Territorial Patterns, integrating google trends to improve understanding.
+title: Suicide Mortality in México. Territorial Patterns, integrating google trends to improve understanding.
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584674032/ian-espinosa-rX12B5uX7QM-unsplash_fonlza.jpg
@@ -14,8 +14,8 @@ tags:
 author: José Luis Manzanares Rivera.
 ---
 
-> *Too often health professionals are focused on what is simpler, that is treat a medical or mental illness, whereas facing suicide risk goes beyond the traditional approach and involves human understanding of suffering.”
-Maurizio Pompili.2018*
+> Too often health professionals are focused on what is simpler, that is treat a medical or mental illness, whereas facing suicide risk goes beyond the traditional approach and involves human understanding of suffering.”
+Maurizio Pompili.2018
 
 During the last 20 years, suicide as a death cause in Mexico, reach a 74.8% growth, which translates into a 3.74% annual increase rate. This pattern surpassed by 60% the dynamics observed by the overall causes of death. 
 
@@ -29,3 +29,9 @@ Results provide current information from a geographic perspective useful to desi
 
 [Get free acces to report](https://suicidio2019.netlify.com/)
 
+
+
+
+References. 
+
+POMPILI, M. (2018), [Reflections of a Committed Suicidologist](https://link.springer.com/chapter/10.1007/978-3-319-47976-7_2). In M. Pompili (Ed.), Phenomenology of Suicide: Springer, Cham.
