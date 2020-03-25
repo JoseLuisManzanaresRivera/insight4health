@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Mar 2020 12:08:36 -0700</pubDate>
-    <lastBuildDate>Fri, 20 Mar 2020 12:08:36 -0700</lastBuildDate>
+    <pubDate>Wed, 25 Mar 2020 16:48:46 -0700</pubDate>
+    <lastBuildDate>Wed, 25 Mar 2020 16:48:46 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -57,8 +57,8 @@
         <title>Suicide Mortality in México. studying Territorial Patterns.</title>
         <description>&lt;blockquote&gt; &lt;p&gt;&lt;em&gt;“Too often health professionals are focused on what is simpler, that is treat a medical or mental illness, whereas facing suicide risk goes beyond the traditional approach and involves human understanding of suffering.”&lt;/em&gt; Maurizio Pompili. 2018&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;During the last 20 years, suicide as a death cause in Mexico, reach a 74.8% growth, which translates into a 3.74% annual increase rate. This pattern surpassed by 60% the dynamics observed by the overall causes of death.&lt;/p&gt; &lt;p&gt;This report documents Mexico´s suicide evolution in time during the period 1998-2017 with a focus on &lt;strong&gt;Aguascalientes&lt;/strong&gt; State. The methodology is based on exploratory...</description>
         <pubDate>Fri, 20 Jul 2018 05:26:40 -0700</pubDate>
-        <link>http://localhost:4000/a-wonderful-serenity-has-taken-possession-of-my-entire-soul/</link>
-        <guid isPermaLink="true">http://localhost:4000/a-wonderful-serenity-has-taken-possession-of-my-entire-soul/</guid>
+        <link>http://localhost:4000/Suicide/</link>
+        <guid isPermaLink="true">http://localhost:4000/Suicide/</guid>
         
         <category>Mental Health</category>
         
@@ -70,17 +70,19 @@
       </item>
     
       <item>
-        <title>Candy, candies, candy!</title>
+        <title>Newborn Respiratory Distress Syndrome.</title>
         <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
         <pubDate>Sat, 21 Apr 2018 05:26:40 -0700</pubDate>
         <link>http://localhost:4000/candy-candies-candy/</link>
         <guid isPermaLink="true">http://localhost:4000/candy-candies-candy/</guid>
         
-        <category>food</category>
+        <category>Respiratory distress Syndrome</category>
         
-        <category>tips</category>
+        <category>Diabetes consequences</category>
         
-        <category>diet</category>
+        <category>Birth Information Sub-System</category>
+        
+        <category>New born</category>
       </item>
     
       <item>
