@@ -16,20 +16,14 @@ author: José Luis Manzanares Rivera.
 
 Despite that several research initiatives has referred to the link between health and environment as “the greatest global health opportunity of the 21st century” (Wang y Horton, 2015), in Latin American countries such as México, there are still  scarce efforts to tackle this important challenge. 
 
-This study shows the temporal  dynamics  of  **coccidioide  mycosis**  in Mexico,  during  the  period  between  2004-2015 in  the  context  of  its  socio-environmental determinants  and  to  identify  its  actual  distribution  in  the  national  territory  by  means  of  the construction  of  geographical  concentration  indicators.
+> This study shows the temporal  dynamics  of  **coccidioide  mycosis**  in Mexico,  during  the  period  between  2004-2015 in  the  context  of  its  socio-environmental determinants  and  to  identify  its  actual  distribution  in  the  national  territory  by  means  of  the construction  of  geographical  concentration  indicators.
 
 An  exploratory  analysis  of data was made from micro data on **hospital discharges** in the period 2004-2015. In theoretical terms,  this  research  is  located  in  the  paradigm  on  social  and  environmental  determinants  of public health conditions.
 
 The time evolution during **11 years** of data analyzed  allows  to  identify  a  persistent  pattern  in  the  concentration  of  cases,  which  mainly  affects four states  in  the  country,  with  a  clear  burden  for  the  male  population. 
 The  state  of  **Sonora**  was identified  as  the  entity  with the  highest  incidence  in  Mexico,  an  entity  that  determines  the environmental   factors   analyzed   and   the   need   to   implement   preventive   public   policies.
 
-Results depicts the  temporal  evolution  of  hospital  discharges due  to  coccidioid  mycosis in  Mexico  and  the environmental  link  of  the disease,  the  evidence  obtained  represents  an opportunity to intervene through control strategies focused on specific territories, with the State of Sonora being a priority site of attention.
-
-
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
-
-
-
+Results depict the  temporal  evolution  of  hospital  discharges due to coccidioid  mycosis in  Mexico  and  the environmental  link  of  the disease,  the  evidence  obtained represents  an opportunity to intervene through control strategies focused on specific territories, with the State of Sonora being a priority site of attention.
 
 
 
