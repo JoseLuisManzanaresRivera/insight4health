@@ -6,7 +6,7 @@ subtitle: A Social and environmental determinants approach.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585264131/dialisis-title-image_tcm7-217595_fk8xkr.jpg
 optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585264131/dialisis-title-image_tcm7-217595_fk8xkr.jpg
-category: tutorial
+category: Renal Failure
 tags:
   - renal disease
   - water quality
