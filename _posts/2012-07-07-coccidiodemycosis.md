@@ -28,5 +28,5 @@ The  state  of  **Sonora**  was identified  as  the  entity  with the  highest  
 
 
 
-[Get free acces to report](https://revistas.ucr.ac.cr/index.php/psm/article/view/30201/31561)
+[Get free acces to full report](https://revistas.ucr.ac.cr/index.php/psm/article/view/30201/31561)
 

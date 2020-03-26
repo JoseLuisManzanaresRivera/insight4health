@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Mar 2020 15:59:21 -0700</pubDate>
-    <lastBuildDate>Thu, 26 Mar 2020 15:59:21 -0700</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2020 16:00:39 -0700</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2020 16:00:39 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -103,16 +103,16 @@
     
       <item>
         <title>How to turn your dog into a Jedi master</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <description>&lt;p&gt;Given the recent growth trend by chronic diseases taken place in some Latin American countries such as Mexico, conducting research using a spatial approach is consider as a relevant way to provide insight into this public health treat.&lt;/p&gt; &lt;p&gt;The aim is to study the temporal and spatial pattern of chronic renal disease in Mexico during the last decade, explicitly considering socioeconomic determents, in particular the link to water quality.&lt;/p&gt; &lt;p&gt;Official microdata is analyzed based on the social and environmental determinants of health theoretical paradigm. Results allow to identify patterns at the State geographic scale. For Aguascalientes, one of the highest...</description>
         <pubDate>Sat, 03 Feb 2018 05:26:40 -0700</pubDate>
         <link>http://localhost:4000/how-to-turn-your-dog-into-a-jedi-master/</link>
         <guid isPermaLink="true">http://localhost:4000/how-to-turn-your-dog-into-a-jedi-master/</guid>
         
-        <category>jedi</category>
+        <category>renal disease</category>
         
-        <category>doggo</category>
+        <category>water quality</category>
         
-        <category>starwars</category>
+        <category>Kidney</category>
         
         <category>tutorial</category>
       </item>
