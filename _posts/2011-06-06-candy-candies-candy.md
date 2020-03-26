@@ -6,7 +6,7 @@ subtitle: Public health challenges for a new generation.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585179601/kelly-sikkema-WvVyudMd1Es-unsplash_zr1key.jpg
 optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585179601/kelly-sikkema-WvVyudMd1Es-unsplash_zr1key.jpg
-category: New born
+category: Newborn health
 tags:
   - Respiratory distress Syndrome 
   - Diabetes consequences
