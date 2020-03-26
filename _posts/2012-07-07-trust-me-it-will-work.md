@@ -14,7 +14,7 @@ tags:
 author: José Luis Manzanares Rivera.
 ---
 
-Despite that several research initiatives has referred to the link health and environment as “the greatest global health opportunity of the 21st century” (Wang y Horton, 2015), in Latin American countries such as México, there are still  scarce efforts to tackle this important challenge. 
+Despite that several research initiatives has referred to the link between health and environment as “the greatest global health opportunity of the 21st century” (Wang y Horton, 2015), in Latin American countries such as México, there are still  scarce efforts to tackle this important challenge. 
 
 This study shows the temporal  dynamics  of  **coccidioide  mycosis**  in Mexico,  during  the  period  between  2004-2015 in  the  context  of  its  socio-environmental determinants  and  to  identify  its  actual  distribution  in  the  national  territory  by  means  of  the construction  of  geographical  concentration  indicators.
 
