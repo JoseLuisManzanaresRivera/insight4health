@@ -28,7 +28,6 @@ This work is carried out as an exploratory data analysis (EDA) based on the birt
 The analysis results allow identifying specific regions where preventive strategies should be implemented. This is a useful effort regarding the efficient application of the resources available for the health system. In particular, the southern border region is identified as an area requiring priority health services.
 
 
-<a href="https://revistas.javeriana.edu.co/files-articulos/RGPS/18-36%20(2019-I)/54559086001/" class="btn btn-primary btn-simple btn-round" target="_blank">Full paper PDF</a>
 
 [Get free acces to report](https://revistas.javeriana.edu.co/files-articulos/RGPS/18-36%20(2019-I)/54559086001/)
 
