@@ -3,7 +3,7 @@ date: 2018-03-12 12:26:40
 layout: post
 title: Coccidioidemycosis in Mexico.  
 subtitle: Environmental determinants of health.
-description: Environmental determinants of health represent a research area of growing interest in the quest to understand the causes of disease, including those health conditions of infectious nature.  Despite that several research initiatives has referred to this link as “the greatest global health opportunity of the 21st century” (Wang y Horton, 2015), in Latin American countries such as México, there are still  scarce efforts to tackle this important challenge. .
+description: Environmental determinants of health represent a research area of growing interest in the quest to understand the causes of disease, including those health conditions of infectious nature.  
 image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585193284/martha-dominguez-de-gouveia-k-NnVZ-z26w-unsplash_g7a6ad.jpg
 optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585193284/martha-dominguez-de-gouveia-k-NnVZ-z26w-unsplash_g7a6ad.jpg
 category: 'Mycosis'
