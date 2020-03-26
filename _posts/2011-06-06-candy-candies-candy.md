@@ -33,6 +33,8 @@ The analysis results allow identifying specific regions where preventive strateg
 
 **References.** 
 
+Manzanares Rivera, José Luis, 2019, Síndrome de dificultad respiratoria del recién nacido en México: Oportunidades para el diseño de estrategias de prevención., núm. 36, Vol.18, enero-junio, Revista Gerencia y Políticas de Salud. Colombia. Pontificia Universidad Javeriana.[PDF](https://revistas.javeriana.edu.co/files-articulos/RGPS/18-36%20(2019-I)/54559086001/)
+
 Peter, W., & Jackson, U. (1967). Diabetes and pregnancy section III the child of the diabetic. Acta Diabetologia Latina, 4(3), 317–347. [doi](https://doi.org/10.1007/BF01544302)
 
 
