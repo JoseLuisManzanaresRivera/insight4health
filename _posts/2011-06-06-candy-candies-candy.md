@@ -2,7 +2,7 @@
 date: 2018-04-21 12:26:40
 layout: post
 title: Newborn Respiratory Distress Syndrome.
-subtitle: Healh challenges for a new generation.
+subtitle: Health challenges for a new generation.
 description: This report  documents the geographic distribution of the Newborn Respiratory Distress Syndrome (NRDS) cases as well as their time evolution during the last decade in Mexico.
 image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585179601/kelly-sikkema-WvVyudMd1Es-unsplash_zr1key.jpg
 optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585179601/kelly-sikkema-WvVyudMd1Es-unsplash_zr1key.jpg
@@ -33,7 +33,7 @@ The analysis results allow identifying specific regions where preventive strateg
 
 **References.** 
 
-Manzanares Rivera, José Luis, 2019, Síndrome de dificultad respiratoria del recién nacido en México: Oportunidades para el diseño de estrategias de prevención., núm. 36, Vol.18, enero-junio, Revista Gerencia y Políticas de Salud. Colombia. Pontificia Universidad Javeriana.[PDF](https://revistas.javeriana.edu.co/files-articulos/RGPS/18-36%20(2019-I)/54559086001/)
+Manzanares Rivera, José Luis, 2019, Síndrome de dificultad respiratoria del recién nacido en México: Oportunidades para el diseño de estrategias de prevención., núm. 36, Vol.18, enero-junio, Revista Gerencia y Políticas de Salud. Colombia. Pontificia Universidad Javeriana. [PDF](https://revistas.javeriana.edu.co/files-articulos/RGPS/18-36%20(2019-I)/54559086001/)
 
 Peter, W., & Jackson, U. (1967). Diabetes and pregnancy section III the child of the diabetic. Acta Diabetologia Latina, 4(3), 317–347. [doi](https://doi.org/10.1007/BF01544302)
 
