@@ -14,11 +14,11 @@ tags:
 author: José Luis Manzanares Rivera
 ---
 
-*It appeared as if Hercules was the father, thought Bennewitz in 1824, when delivering the giant foetus of a diabetic woman.*
-
+> It appeared as if Hercules was the father, thought Bennewitz in 1824, when delivering the giant foetus of a diabetic woman. 
 **H. G. Bennewitz, 1924**
 
-> During 2016, in Mexico there were 82 764 newborn babies diagnosed with birth defects, in a range of 797 different diseases. Although 51% of the cases concentrated in just 10 different causes, respiratory distress syndrome of newborn (ICD code: P220) represent the third highest frequency cause in the country with 4 996 cases.
+
+During 2016, in Mexico there were 82 764 newborn babies diagnosed with birth defects, in a range of 797 different diseases. Although 51% of the cases concentrated in just 10 different causes, respiratory distress syndrome of newborn (ICD code: P220) represent the third highest frequency cause in the country with 4 996 cases.
 
 
 This report  documents the geographic distribution of the Newborn Respiratory Distress Syndrome (NRDS) cases as well as their time evolution during the last decade in Mexico. The problem studied herein is conceptualized under the perspective of the health social determining factors, a theoretical approach that will allow setting a link towards the design of public policies.
