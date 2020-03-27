@@ -4,9 +4,9 @@ layout: post
 title: Geospatial approach to the social determinants of Cancer.
 subtitle: Incorporating consuption patterns to improve understanding of cancer mortality. 
 description: This report documents cancer mortality geographic distribution in Chihuahua, a border state with the US. We follow it’s evolution over the last decade. The Spatial dimension provides a complementary approach that brings the cancer debate to the table for this norther border state.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme2_ylcxxz.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme2_ylcxxz.jpg
-category: css
+image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585275051/national-cancer-institute-L7en7Lb-Ovc-unsplash_e2r9ok.jpg
+optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585275051/national-cancer-institute-L7en7Lb-Ovc-unsplash_e2r9ok.jpg
+category: Cancer
 tags:
   - Cancer
   - Consumption patterns
