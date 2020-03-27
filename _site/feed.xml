@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Mar 2020 17:51:42 -0700</pubDate>
-    <lastBuildDate>Thu, 26 Mar 2020 17:51:42 -0700</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2020 19:01:49 -0700</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2020 19:01:49 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -105,8 +105,8 @@
         <title>Spatial and temporal Expressions of chronic Kidney Disease in Mexico</title>
         <description>&lt;p&gt;Given the recent growth trend by &lt;strong&gt;chronic diseases&lt;/strong&gt; taken place in some &lt;strong&gt;Latin American countries&lt;/strong&gt; such as Mexico, conducting research using a spatial approach is consider as a relevant way to provide insight into this public health treat.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;CDK treatment include high cost procedures such as hemodialysis or in advanced stages a need for transplants, thus contributing to understand Chronic kidney disease determinants is considered a relevant area of research with great social benefits.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;The aim of this report is to study the temporal and spatial pattern of chronic renal disease in Mexico during the last decade, explicitly...</description>
         <pubDate>Sat, 03 Feb 2018 05:26:40 -0700</pubDate>
-        <link>http://localhost:4000/how-to-turn-your-dog-into-a-jedi-master/</link>
-        <guid isPermaLink="true">http://localhost:4000/how-to-turn-your-dog-into-a-jedi-master/</guid>
+        <link>http://localhost:4000/CKD/</link>
+        <guid isPermaLink="true">http://localhost:4000/CKD/</guid>
         
         <category>renal disease</category>
         
@@ -118,15 +118,17 @@
       </item>
     
       <item>
-        <title>Let flexbox work for you or perish</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <title>Geospatial approach to the social determinants of Cancer.</title>
+        <description>&lt;p&gt;It is important to better understand &lt;strong&gt;cancer&lt;/strong&gt; dissemination and its &lt;strong&gt;geographic patterns&lt;/strong&gt;. The study of its &lt;strong&gt;spatial distribution&lt;/strong&gt; can contribute to implement target preventive and control strategies allowing a reduction of the social cost and financial burden for the health care system.&lt;/p&gt; &lt;p&gt;The spatial distribution of &lt;strong&gt;cancer&lt;/strong&gt; deaths is analyzed in Chihuahua and a regional classification is proposed from a health perspective to understand the magnitude of mortality rates in the state.&lt;/p&gt; &lt;p&gt;The methodology conducts exploratory data analysis (EDA) as well as inferential data analysis (IDA) using microdata from the national information system on Health (sinais) from 1998 to 2013...</description>
         <pubDate>Mon, 14 Aug 2017 15:55:45 -0700</pubDate>
         <link>http://localhost:4000/let-flexbox-work-for-you-or-perish/</link>
         <guid isPermaLink="true">http://localhost:4000/let-flexbox-work-for-you-or-perish/</guid>
         
-        <category>css</category>
+        <category>Cancer</category>
         
-        <category>frontend</category>
+        <category>Consumption patterns</category>
+        
+        <category>Social Determinants of Health</category>
         
         <category>css</category>
       </item>
