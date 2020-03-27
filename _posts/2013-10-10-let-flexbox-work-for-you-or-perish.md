@@ -16,13 +16,14 @@ author: José Luis Manzanares Rivera.
 
 It is important to better understand **cancer** dissemination and its **geographic patterns**. The study of its **spatial distribution** can contribute to implement target preventive and control strategies allowing a reduction of the social cost and financial burden for the health care system.
 
+
+> Social determinants of economic origin such as income levels or consumption patterns are two research areas of concern.  Income conditions are a key component of poverty which in turn influence health care access mechanisms such as early detection, treatment options and management decisions. In the other hand, consumption patterns represent a latent exposure mechanism to compounds and substances with documented cancerogenic potential.  
+
 The spatial distribution of **cancer** deaths is analyzed in Chihuahua and a regional classification is proposed from a health perspective to understand the magnitude of mortality rates in the state.
 
 The methodology conducts exploratory data analysis (EDA) as well as inferential data analysis (IDA) using microdata from the national information system on Health (sinais) from 1998 to 2013 and the Encuesta Nacional de Gasto en los Hogares (engasto) 2014.
 
 Results suggest that specific cancer causes of death such as **colon** represent a growing concern in some state regions, in particular an adverse scenario is found among **female** population at productive age.
-
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
 
 [Get free acces to full report](https://drive.google.com/file/d/0B0DFhRNEsQ_vZ3haZVRmOHo4cEk/view)
