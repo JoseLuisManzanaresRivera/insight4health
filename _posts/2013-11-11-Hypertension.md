@@ -8,7 +8,7 @@ image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585364
 optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585364305/images_a0e0a5.jpg
 category: Hypertension 
 tags:
-  - Hyoertension
+  - Hypertension
   - Indigenous population
   - diet
 author: José Luis Manzanares Rivera.
