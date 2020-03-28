@@ -1,8 +1,8 @@
 ---
 date: 2017-08-07 23:04:08
 layout: post
-title: Mortality due to hypertensive diseases: evidence from the southern border of Mexico in the period 1998-2014.
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+title: Mortality due to hypertensive diseases. 
+subtitle: Evidence from the southern Mexican border. 
 description: During the last decade, hypertensive diseases in Mexico has shown an increasing pattern that reveals a pubic health issue of concern with growing cost.
 image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585362705/alexandru-acea-RQgKM1h2agA-unsplash_ituoph.jpg
 optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585362705/alexandru-acea-RQgKM1h2agA-unsplash_ituoph.jpg
@@ -27,7 +27,7 @@ This report analyzes patterns of mortality due to **hypertensive diseases** in t
 The emphasis is directed at the causes **Essential (primary) hypertension** (I10X) and “**Hypertensive heart disease with heart failure**” (I110). Using data from the mortality records of the National Health Information System, two types of analyses were carried out: **cross-sectional analysis** and time trends. 
 
 Over the 16 years included in the study, the age-adjusted mortality rates show a clear increase. The findings suggest that the higher presence of **indigenous populations** is a group of importance in the determination of the mortality pattern, with the state of Yucatán a case of particular interest. 
-In addition, it is the female population that which exhibits the greatest adverse impact.
+In addition, it is the female population the populaton group that exhibits the greatest adverse impact.
 
 [Get free acces to full report](https://www.scielosp.org/article/scol/2017.v13n4/647-662/)
 

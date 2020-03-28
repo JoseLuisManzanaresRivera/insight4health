@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 Mar 2020 19:20:04 -0700</pubDate>
-    <lastBuildDate>Fri, 27 Mar 2020 19:20:04 -0700</lastBuildDate>
+    <pubDate>Fri, 27 Mar 2020 19:42:58 -0700</pubDate>
+    <lastBuildDate>Fri, 27 Mar 2020 19:42:58 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -134,17 +134,19 @@
       </item>
     
       <item>
-        <title>A star has fallen from the sky and the cat ate it</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <title>Mortality due to hypertensive diseases.</title>
+        <description>&lt;p&gt;During the last decade, hypertensive diseases in Mexico has shown an increasing pattern that reveals a pubic health issue of concern with growing cost. This upward trend is particularly important in specific regions of the country such as the southern border, a region comprised by five states: Chiapas, Campeche, Quintana Roo, Yucatán y Tabasco.&lt;/p&gt; &lt;p&gt;This report analyzes patterns of mortality due to &lt;strong&gt;hypertensive diseases&lt;/strong&gt; in the southern border of Mexico, as well as the evolution of such mortality in the 1998-2014 period.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Hypertension is defined as a condition where a sustained increase in the blood pressure takes place, with...</description>
         <pubDate>Mon, 07 Aug 2017 16:04:08 -0700</pubDate>
-        <link>http://localhost:4000/a-star-has-fallen-from-the-sky-and-the-cat-ate-it/</link>
-        <guid isPermaLink="true">http://localhost:4000/a-star-has-fallen-from-the-sky-and-the-cat-ate-it/</guid>
+        <link>http://localhost:4000/Hypertension/</link>
+        <guid isPermaLink="true">http://localhost:4000/Hypertension/</guid>
         
-        <category>crazy</category>
+        <category>Hyoertension</category>
         
-        <category>story</category>
+        <category>Indigenous population</category>
         
-        <category>music</category>
+        <category>diet</category>
+        
+        <category>Hypertension</category>
       </item>
     
       <item>
