@@ -4,8 +4,8 @@ layout: post
 title: Mortality due to hypertensive diseases. 
 subtitle: Evidence from the southern Mexican border. 
 description: During the last decade, hypertensive diseases in Mexico has shown an increasing pattern that reveals a pubic health issue of concern with growing cost.
-image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585363878/alexandru-acea-RQgKM1h2agA-unsplash1_h9fxlf.jpg
-optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585363878/alexandru-acea-RQgKM1h2agA-unsplash1_h9fxlf.jpg
+image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585364305/images_a0e0a5.jpg
+optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585364305/images_a0e0a5.jpg
 category: Hypertension 
 tags:
   - Hyoertension
