@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Life
+title: Diabetes
 slug: life
 description: A category for life related posts.
 ---
