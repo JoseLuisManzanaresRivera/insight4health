@@ -42,6 +42,14 @@
         </url>
     
         <url>
+            <loc>http://localhost:4000/category/Renal/</loc>
+            
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            
+        </url>
+    
+        <url>
             <loc>http://localhost:4000/category/Rhinitis/</loc>
             
                 <changefreq>monthly</changefreq>
@@ -163,14 +171,6 @@
     
         <url>
             <loc>http://localhost:4000/tags/</loc>
-            
-                <changefreq>monthly</changefreq>
-                <priority>0.5</priority>
-            
-        </url>
-    
-        <url>
-            <loc>http://localhost:4000/category/tutorial/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
