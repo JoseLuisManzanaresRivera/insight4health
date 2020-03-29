@@ -14,6 +14,7 @@ tags:
 author: José Luis Manzanares Rivera
 ---
 
+> Despite that both countries share cultural ties that date back more than four hundred years and notwithstanding   that several border cities along the region do have a common demographic profile, each subregion on the border states faces particular social challenges. Among these, health care access has become a key public concern. 
 
 This work examines medical services providers’ spatial location patterns at the Mexican cities in the **US-Mexico border** as a case study. 
 
@@ -23,7 +24,7 @@ We identify the following specific medical services activities with particular r
 
 In addition, a cluster pattern around border crossings was found for the largest city included in the study. Results suggest that **trans-border health care** needs in the region represent a binational integration mechanism with social opportunities for the local populations.
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+
 
 
 [Get free acces to report](http://www.scielo.org.mx/pdf/estfro/v18n36/2395-9134-estfro-18-36-00151-es.pdf)
