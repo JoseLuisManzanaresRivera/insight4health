@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Mar 2020 14:01:32 -0700</pubDate>
-    <lastBuildDate>Sun, 29 Mar 2020 14:01:32 -0700</lastBuildDate>
+    <pubDate>Sun, 29 Mar 2020 14:08:57 -0700</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2020 14:08:57 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -172,7 +172,7 @@
         <link>http://localhost:4000/Does-the-border-matter-for-health-care/</link>
         <guid isPermaLink="true">http://localhost:4000/Does-the-border-matter-for-health-care/</guid>
         
-        <category>Medical servicces</category>
+        <category>Medical services</category>
         
         <category>US-Mexico health</category>
         

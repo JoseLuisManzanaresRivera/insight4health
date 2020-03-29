@@ -3,8 +3,7 @@ date: 2017-06-08 12:00:00
 layout: post
 title: Does the border matter for health care?
 subtitle: A study of medical services provider’s location at urban scale in the Mexican cities of the US-MX border.
-description: 
-Does the border matter for health care?  We take on this inquiry to bring light on the spatial patterns of medical services providers at the city scale for the  main US Mexico border  cities in the Mexican side.
+description:  Does the border matter for health care?  We take on this inquiry to bring light on the spatial patterns of medical services providers at the city scale for the  main US Mexico border  cities in the Mexican side.
 category: USMX-Border
 image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585515175/barbara-zandoval-AWJNryTcJFk-unsplash_iztcsr.jpg
 optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585515175/barbara-zandoval-AWJNryTcJFk-unsplash_iztcsr.jpg
