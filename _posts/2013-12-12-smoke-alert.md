@@ -1,7 +1,7 @@
 ---
 date: 2017-07-29 13:24:49
 layout: post
-title: Spatial distribution of hospital discharges for cases of viral infection from mosquito bites in Mexico in the period 2004-2014. 
+title: Viral infection from mosquito bites in Mexico in the period 2004-2014. 
 subtitle: A vector-borne disease 
 description: While viral infections transmitted by mosquito bites are not a new phenomenon, until recently, this kind of health treat has been acquiring particular importance considering its rapid expansion and its link to serious neurologic manifestations observed in conditions as those produced by Zika virus.
 image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585449222/wolfgang-hasselmann-nZgpg4xYhjM-unsplash_iotvzj.jpg
