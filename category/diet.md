@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Diet
-slug: diet
-description: A category for diet related posts.
+title: Newborn health
+slug: Newborn health
+description: A category for Newborn health related posts.
 ---
