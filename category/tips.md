@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Tips
-slug: tips
-description: A category for tips.
+title: Coccidioidemycosis
+slug: Coccidioidemycosis
+description: A category for Coccidioidemycosis.
 ---
