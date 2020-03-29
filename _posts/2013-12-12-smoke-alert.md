@@ -16,7 +16,7 @@ author: José Luis Manzanares Rivera.
 
 While viral infections transmitted by mosquito bites are not a new phenomenon, until recently, this kind of health treat has been acquiring particular importance considering its rapid expansion   and its apparent link to some serious neurologic manifestations observed in conditions as those produced by *Zika virus**, a health condition that was declared an international public health emergency.
 
-There is not yet an antiviral approved for Vector-borne diseases such as Zika virus, so preventive measures can help reduce the negative impacts on the population of this peculiar disease.   
+> There is not yet an antiviral approved for Vector-borne diseases such as Zika virus, so preventive measures can help reduce the negative impacts on the population of this peculiar disease.   
 
 This report aims to determine the spatial distribution of hospital discharges for viral fever caused by mosquito bites in Mexico and characterize its historical trend in the period 2004‑2014. 
 
