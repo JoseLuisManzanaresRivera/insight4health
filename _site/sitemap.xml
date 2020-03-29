@@ -50,7 +50,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/category/Renal/</loc>
+            <loc>http://localhost:4000/category/Renal%20Failure/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
