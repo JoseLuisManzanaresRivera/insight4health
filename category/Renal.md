@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Renal failure
-slug: Renal failure
+title: Renal Failure
+slug: Renal Failure
 description: A category for tutorial related posts.
 ---
