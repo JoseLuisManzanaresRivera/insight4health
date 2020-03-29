@@ -8,12 +8,20 @@ category: travel
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559824306/theme13_dshbqx.jpg
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559824306/theme13_dshbqx.jpg
 tags:
-  - fate
-  - travel
-author: thiagorossener
+  - Medical servicces 
+  - US-Mexico health
+  - Border
+author: José Luis Manzanares Rivera
 ---
 
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+
+This work examines medical services providers’ spatial location patterns at the Mexican cities in the **US-Mexico border** as a case study. 
+
+Formal statistical methods are applied using data sources for each side of the border with the primary source being the National Statistic Directory of Economic Units (DENUE) published by the Mexican Census Bureau. 
+
+We identify the following specific medical services activities with particular relative concentrations at the border city scale: **private dental offices** (NAICS code 621211) ci= 1.32, **general medicine private offices** (NAICS code 621111) ci = 1.16, **private medical diagnostics labs** (NAICS code 621511) ci = 1.02, and **private general hospitals** (NAICS code 621398) ci = 1.03. 
+
+In addition, a cluster pattern around border crossings was found for the largest city included in the study. Results suggest that **trans-border health care** needs in the region represent a binational integration mechanism with social opportunities for the local populations.
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
