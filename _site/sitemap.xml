@@ -34,6 +34,14 @@
         </url>
     
         <url>
+            <loc>http://localhost:4000/category/Hypertension/</loc>
+            
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            
+        </url>
+    
+        <url>
             <loc>http://localhost:4000/category/Newborn%20health/</loc>
             
                 <changefreq>monthly</changefreq>
