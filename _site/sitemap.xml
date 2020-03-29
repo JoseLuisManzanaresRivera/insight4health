@@ -18,7 +18,7 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/category/Newborn%20health/</loc>
+            <loc>http://localhost:4000/category/Newborn/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
