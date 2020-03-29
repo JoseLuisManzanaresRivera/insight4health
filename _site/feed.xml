@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Mar 2020 12:01:54 -0700</pubDate>
-    <lastBuildDate>Sun, 29 Mar 2020 12:01:54 -0700</lastBuildDate>
+    <pubDate>Sun, 29 Mar 2020 12:08:26 -0700</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2020 12:08:26 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -153,8 +153,8 @@
         <title>Viral infection from mosquito bites in Mexico in the period 2004-2014.</title>
         <description>&lt;p&gt;While viral infections transmitted by mosquito bites are not a new phenomenon, until recently, this kind of health treat has been acquiring particular importance considering its rapid expansion and its apparent link to some serious neurologic manifestations observed in conditions as those produced by *Zika virus**, a health condition that was declared an international public health emergency.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;There is not yet an antiviral approved for Vector-borne diseases such as Zika virus, so preventive measures can help reduce the negative impacts on the population of this peculiar disease.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;This report aims to determine the spatial distribution of hospital discharges...</description>
         <pubDate>Sat, 29 Jul 2017 06:24:49 -0700</pubDate>
-        <link>http://localhost:4000/smoke-alert/</link>
-        <guid isPermaLink="true">http://localhost:4000/smoke-alert/</guid>
+        <link>http://localhost:4000/Zika/</link>
+        <guid isPermaLink="true">http://localhost:4000/Zika/</guid>
         
         <category>Zika</category>
         
@@ -169,8 +169,8 @@
         <title>Do you believe that a spider can dance?</title>
         <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
         <pubDate>Thu, 08 Jun 2017 05:00:00 -0700</pubDate>
-        <link>http://localhost:4000/Zika/</link>
-        <guid isPermaLink="true">http://localhost:4000/Zika/</guid>
+        <link>http://localhost:4000/Does-the-border-matter-for-health-care/</link>
+        <guid isPermaLink="true">http://localhost:4000/Does-the-border-matter-for-health-care/</guid>
         
         <category>fate</category>
         

@@ -18,6 +18,14 @@
         </url>
     
         <url>
+            <loc>http://localhost:4000/category/Rhinitis/</loc>
+            
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            
+        </url>
+    
+        <url>
             <loc>http://localhost:4000/about/</loc>
             
                 <changefreq>monthly</changefreq>
@@ -162,14 +170,6 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/category/travel/</loc>
-            
-                <changefreq>monthly</changefreq>
-                <priority>0.5</priority>
-            
-        </url>
-    
-        <url>
             <loc>http://localhost:4000/category/tutorial/</loc>
             
                 <changefreq>monthly</changefreq>
@@ -250,14 +250,14 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/smoke-alert/</loc>
+            <loc>http://localhost:4000/Zika/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2017-07-29</lastmod>
         </url>
     
         <url>
-            <loc>http://localhost:4000/Zika/</loc>
+            <loc>http://localhost:4000/Does-the-border-matter-for-health-care/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2017-06-08</lastmod>
