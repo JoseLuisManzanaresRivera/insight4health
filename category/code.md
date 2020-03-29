@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Code
-slug: code
-description: A category for code related posts.
+title: Suicide
+slug: Suicide
+description: A category for Suicide related posts.
 ---
