@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Mar 2020 19:34:02 -0700</pubDate>
-    <lastBuildDate>Sat, 28 Mar 2020 19:34:02 -0700</lastBuildDate>
+    <pubDate>Sat, 28 Mar 2020 19:35:51 -0700</pubDate>
+    <lastBuildDate>Sat, 28 Mar 2020 19:35:51 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -150,19 +150,19 @@
       </item>
     
       <item>
-        <title>Smoke alert</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
+        <title>Spatial distribution of hospital discharges for cases of viral infection from mosquito bites in Mexico in the period 2004-2014.</title>
+        <description>&lt;p&gt;While viral infections transmitted by mosquito bites are not a new phenomenon, until recently, this kind of health treat has been acquiring particular importance considering its rapid expansion and its apparent link to some serious neurologic manifestations observed in conditions as those produced by *Zika virus**, a health condition that was declared an international public health emergency.&lt;/p&gt; &lt;p&gt;There is not yet an antiviral approved for Vector-borne diseases such as Zika virus, so preventive measures can help reduce the negative impacts on the population of this peculiar disease.&lt;/p&gt; &lt;p&gt;This report aims to determine the spatial distribution of hospital discharges for viral...</description>
         <pubDate>Sat, 29 Jul 2017 06:24:49 -0700</pubDate>
         <link>http://localhost:4000/smoke-alert/</link>
         <guid isPermaLink="true">http://localhost:4000/smoke-alert/</guid>
         
-        <category>jekyll</category>
+        <category>Zika</category>
         
-        <category>wordpress</category>
+        <category>Vector-borne</category>
         
-        <category>blog</category>
+        <category>Aedes aegypti</category>
         
-        <category>blog</category>
+        <category>Zika virus</category>
       </item>
     
       <item>
