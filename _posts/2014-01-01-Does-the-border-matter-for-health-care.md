@@ -9,7 +9,7 @@ category: USMX-Border
 image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585515175/barbara-zandoval-AWJNryTcJFk-unsplash_iztcsr.jpg
 optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585515175/barbara-zandoval-AWJNryTcJFk-unsplash_iztcsr.jpg
 tags:
-  - Medical servicces 
+  - Medical services 
   - US-Mexico health
   - Border
 author: José Luis Manzanares Rivera
