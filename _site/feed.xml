@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Mar 2020 14:02:30 -0700</pubDate>
-    <lastBuildDate>Mon, 30 Mar 2020 14:02:30 -0700</lastBuildDate>
+    <pubDate>Mon, 30 Mar 2020 14:03:58 -0700</pubDate>
+    <lastBuildDate>Mon, 30 Mar 2020 14:03:58 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -185,8 +185,8 @@
         <title>Water resource quality as related to economic activity and health patterns in Sonora, Mexico.</title>
         <description>&lt;p&gt;Sonora, a Mexican state located at the US border, historically has been conducting a dynamic mining activity as part of a natural productive potential that extends beyond the border.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Mining activities, in particular copper extraction, have been defining human binational relations in the Sonora-Arizona, region however until recently the environmental impacts regarding the relation mining activity waste-water quality and public health are beginning to emerge as a general concern among the population along this interconnected region.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;The aim of this work is to analyze the spatial distribution of potential &lt;strong&gt;pollution pathways of water resources&lt;/strong&gt; given the economic activity...</description>
         <pubDate>Sun, 04 Jun 2017 05:00:00 -0700</pubDate>
-        <link>http://localhost:4000/a-cook-cries-in-the-rain-at-night/</link>
-        <guid isPermaLink="true">http://localhost:4000/a-cook-cries-in-the-rain-at-night/</guid>
+        <link>http://localhost:4000/Minning/</link>
+        <guid isPermaLink="true">http://localhost:4000/Minning/</guid>
         
         <category>Cancer</category>
         
