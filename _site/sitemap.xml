@@ -302,27 +302,6 @@
             <lastmod>2017-06-04</lastmod>
         </url>
     
-        <url>
-            <loc>http://localhost:4000/grab-your-band-and-get-out/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2017-05-11</lastmod>
-        </url>
-    
-        <url>
-            <loc>http://localhost:4000/passion-is-dangerous-go-for-it/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2015-09-06</lastmod>
-        </url>
-    
-        <url>
-            <loc>http://localhost:4000/birds-can-fly-but-this-you-knew-already/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2010-09-10</lastmod>
-        </url>
-    
     
         <url>
             <loc>http://localhost:4000/authors/thiagorossener/</loc>
