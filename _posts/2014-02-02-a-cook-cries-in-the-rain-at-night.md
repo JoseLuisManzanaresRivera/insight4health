@@ -4,8 +4,8 @@ layout: post
 title: A cook cries in the rain at night
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585594771/20190508184034_61_h1yl7g.jpg
-optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585594771/20190508184034_61_h1yl7g.jpg
+image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585595004/Grupo-Mexico_ray9t9.jpg
+optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585595004/Grupo-Mexico_ray9t9.jpg
 category: Environmental Health
 tags:
   - Cancer
