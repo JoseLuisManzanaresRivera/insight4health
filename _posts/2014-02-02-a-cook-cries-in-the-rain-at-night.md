@@ -3,9 +3,9 @@ date: 2017-06-04 12:00:00
 layout: post
 title: Water resource quality as related to economic activity and health patterns in Sonora, Mexico.
 subtitle: Copper Minning and public health in the Sonora-Arizona region. 
-description: Sonora, a Mexican state located at the US border, historically has been conducting a dynamic mining activity as part of a natural productive potential that extends beyond the border. These activities have been defining human binational relations in the Sonora Arizona region however until recently the environmental impacts in the relation mining-water quality and health are beginning to emerge as a general concern among the population along this interconnected region. 
+description: Sonora, a Mexican state located at the US border, historically has been conducting a dynamic mining activity as part of a natural productive potential that extends beyond the border. 
 image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585595004/Grupo-Mexico_ray9t9.jpg
-optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585599688/Grupo-Mexico_eflgyn.jpg
+optimized_image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585595004/Grupo-Mexico_ray9t9.jpg
 category: Environmental Health
 tags:
   - Cancer
