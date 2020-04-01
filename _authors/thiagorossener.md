@@ -8,7 +8,7 @@ bio: Passionate human, explorer, data scientist.
 github_username: JoseLuisManzanaresRivera
 facebook_username: 
 twitter_username: JLManzanaresR
-instagram_username: 
+instagram_username: jlmanzanaresr 
 linkedin_username: 
 medium_username: 
 ---
