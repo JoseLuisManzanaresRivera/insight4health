@@ -5,17 +5,13 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 Mar 2020 21:35:14 -0700</pubDate>
-    <lastBuildDate>Tue, 31 Mar 2020 21:35:14 -0700</lastBuildDate>
+    <pubDate>Tue, 31 Mar 2020 22:05:53 -0700</pubDate>
+    <lastBuildDate>Tue, 31 Mar 2020 22:05:53 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>SARS cov 2</title>
-        <description>&lt;p&gt;&amp;lt;iframe width=”650″ height=”400″ frameborder=”0″ scrolling=”no” marginheight=”0″ marginwidth=”0″ title=”2019-nCoV”src=”//arcgis.com/apps/Embed/index.html?webmap=14aa9e5660cf42b5b4b546dec6ceec7c&amp;amp;extent=77.3846,11.535,163.5174,52.8632&amp;amp;zoom=true&amp;amp;previewImage=false&amp;amp;scale=true&amp;amp;disable_scroll=true&amp;amp;theme=light”&amp;gt;
-&amp;lt;/iframe&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a style=&quot;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Roboto, Noto, &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px&quot; href=&quot;https://unsplash.com/@danieltafjord?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; title=&quot;Download free do whatever you want high-resolution photos from Daniel Tafjord&quot;&gt;&lt;span style=&quot;display:inline-block;padding:2px 3px&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white&quot; viewBox=&quot;0 0 32 32&quot;&gt;&lt;title&gt;unsplash-logo&lt;/title&gt;&lt;path d=&quot;M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;span style=&quot;display:inline-block;padding:2px 3px&quot;&gt;Daniel Tafjord&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+        <description>&lt;p&gt;Recently the US has become the leading epicenter for the COVID-19 epidemic, given the massive daily movement of people between the US and Mexico, the international border represents a key potential spreading point. As of march 31st all the US border states have confirmed cases. How the binational daily activities at the border may contribute to the expansion of this emerging global health treat? And what are the expected economic impacts of the business shutdown at the border cities? Are some relevant questions that are been examined to better face this current health emergency.&lt;/p&gt; &lt;h2 id=&quot;binational-community-transmission&quot;&gt;Binational community transmission.&lt;/h2&gt; &lt;p&gt;At border...</description>
         <pubDate>Tue, 24 Mar 2020 05:00:00 -0700</pubDate>
         <link>http://localhost:4000/covid19/</link>
         <guid isPermaLink="true">http://localhost:4000/covid19/</guid>
