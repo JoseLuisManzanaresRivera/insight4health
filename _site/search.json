@@ -3,6 +3,14 @@
   
   
     {
+      "title"    : "SARS cov 2",
+      "tags"     : "covid19, pandemic, and usmx border",
+      "categories" : "COVID19",
+      "url"      : "/covid19/",
+      "date"     : "03/24/2020"
+    } ,
+  
+    {
       "title"    : "Reliable information to improve health care outcomes.",
       "tags"     : "Big data, Public Health, and Healh economics",
       "categories" : "Data Sciences",
