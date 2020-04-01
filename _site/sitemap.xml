@@ -26,6 +26,14 @@
         </url>
     
         <url>
+            <loc>http://localhost:4000/category/Data%20Science/</loc>
+            
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            
+        </url>
+    
+        <url>
             <loc>http://localhost:4000/category/Diabetes/</loc>
             
                 <changefreq>monthly</changefreq>

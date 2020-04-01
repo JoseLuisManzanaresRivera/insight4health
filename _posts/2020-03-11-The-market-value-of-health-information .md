@@ -9,7 +9,7 @@ image: >-
   https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584335391/pankaj-patel-u2Ru4QBXA5Q-unsplash_g8d5xn.jpg
 optimized_image: >-
   https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584319458/markus-spiske-466ENaLuhLY-unsplash_jfexxi.jpg
-category: Data Sciences
+category: Data Science
 tags:
   - Big data
   - Public Health
