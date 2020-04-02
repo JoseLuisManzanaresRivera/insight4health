@@ -29,3 +29,9 @@ In addition, a cluster pattern around border crossings was found for the largest
 
 [Get free acces to report](http://www.scielo.org.mx/pdf/estfro/v18n36/2395-9134-estfro-18-36-00151-es.pdf)
 
+
+
+
+[Like it? Share it, Contribute!](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LJ35ZPFKW82VN&source=url)
+
+![contribute](https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585791798/C%C3%B3digo_QR_z5gc74.png)
