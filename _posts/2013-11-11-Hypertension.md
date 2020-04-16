@@ -32,6 +32,4 @@ In addition, it is the female population the populaton group that exhibits the g
 [Get free acces to full report](https://www.scielosp.org/article/scol/2017.v13n4/647-662/)
 
 
-[Like it? Share it, Contribute!](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LJ35ZPFKW82VN&source=url)
 
-![contribute](https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585791798/C%C3%B3digo_QR_z5gc74.png)

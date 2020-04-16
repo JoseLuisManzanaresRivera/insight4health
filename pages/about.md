@@ -13,5 +13,5 @@ José Luis Manzanares Rivera es un investigador mexicano especializado en el an�
 
 Ha realizado trabajo de investigación en diversos paises entre ellos Chile y Australia.
 
-Desde 2012 es miembro del Sistema Nacional de Investigadores del Consejo Nacional de Ciencia y Tecnología y es autor de más de 20 publicaciones científicas, entre ellas artículos académicos en revistas especializadas en países como Argentina, Colombia, Costa Rica y Estados Unidos.
+Es miembro del Sistema Nacional de Investigadores del Consejo Nacional de Ciencia y Tecnología y es autor de más de 20 publicaciones científicas, entre ellas artículos académicos en revistas especializadas en países como Argentina, Colombia, Costa Rica y Estados Unidos.
 
