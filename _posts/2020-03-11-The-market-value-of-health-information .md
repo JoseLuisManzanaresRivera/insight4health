@@ -3,13 +3,9 @@ date: 2019-05-12T19:17:18.000Z
 layout: post
 title: Reliable information to improve health care outcomes. 
 subtitle: Turning data into valuable knowledge.  Explore health trends overtime and it's geographic patterns.
-description: >-
-   Insight4health provides a platform to analyze public health trends in  Mexico's Northern  border. This app incorporates data science tools that transforms data from several sources into detailed input for acurate decision making. A public effort from El Colegio de la Frontera Norte, Nogales to disseminate research that targets to improve the health conditions of the population in the region.   
-   
-image: >-
-  https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584335391/pankaj-patel-u2Ru4QBXA5Q-unsplash_g8d5xn.jpg
-optimized_image: >-
-  https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584319458/markus-spiske-466ENaLuhLY-unsplash_jfexxi.jpg
+description:  Insight4health provides a platform to analyze public health trends in  Mexico's Northern  border. This app incorporates data science tools that transforms data from several sources into detailed input for acurate decision making. A public effort from El Colegio de la Frontera Norte, Nogales to disseminate research that targets to improve the health conditions of the population in the region.   
+image: https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584335391/pankaj-patel-u2Ru4QBXA5Q-unsplash_g8d5xn.jpg
+optimized_image:  https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1584319458/markus-spiske-466ENaLuhLY-unsplash_jfexxi.jpg
 category: Data Science
 tags:
   - Big data
