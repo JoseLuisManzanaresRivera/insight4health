@@ -5,13 +5,13 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Apr 2020 17:01:56 -0700</pubDate>
-    <lastBuildDate>Wed, 22 Apr 2020 17:01:56 -0700</lastBuildDate>
+    <pubDate>Wed, 22 Apr 2020 17:53:48 -0700</pubDate>
+    <lastBuildDate>Wed, 22 Apr 2020 17:53:48 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>SARS-coV-2</title>
-        <description>&lt;p&gt;Recently the US has become the leading epicenter for the COVID-19 epidemic, given the massive daily movement of people between the US and Mexico, the international border represents a key potential spreading &lt;a href=&quot;/assets/html/border.html&quot;&gt;point&lt;/a&gt;. As of march 31st all the US border states have confirmed cases. How the binational daily activities at the border may contribute to the expansion of this emerging global health treat? And what are the expected economic impacts of the businesses shutdown and custumers lockdown at the border cities? These are some relevant questions that are been examined by local authorities to better face this current...</description>
+        <description>&lt;p&gt;As the US has become the leading epicenter for the COVID-19 epidemic, given the massive daily movement of people between the US and Mexico, the international border represents a key potential spreading &lt;a href=&quot;/assets/html/border.html&quot;&gt;hotspot&lt;/a&gt;. Alhtough 65% of the border counties are still covid19 free as of Aplil 21st.&lt;br /&gt; The spatial distibution of the cases in the covid19 affected counties is far from homegenoeus, and only 3 border counties concentrate 75.5% of the cases.&lt;/p&gt; &lt;p&gt;How the binational daily activities at the border may contribute to the expansion of this emerging global health threat? And what are the expected economic impacts...</description>
         <pubDate>Tue, 24 Mar 2020 05:00:00 -0700</pubDate>
         <link>http://localhost:4000/covid19/</link>
         <guid isPermaLink="true">http://localhost:4000/covid19/</guid>
