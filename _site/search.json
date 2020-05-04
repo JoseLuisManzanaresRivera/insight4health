@@ -11,6 +11,22 @@
     } ,
   
     {
+      "title"    : "Mortality due to hypertensive diseases.",
+      "tags"     : "Hypertension, Indigenous population, and diet",
+      "categories" : "Hypertension",
+      "url"      : "/Hypertension/",
+      "date"     : "02/05/2020"
+    } ,
+  
+    {
+      "title"    : "Spatial and temporal Expressions of chronic Kidney Disease in Mexico",
+      "tags"     : "renal disease, water quality, and Kidney",
+      "categories" : "Renal Failure",
+      "url"      : "/CKD/",
+      "date"     : "02/03/2020"
+    } ,
+  
+    {
       "title"    : "20 years of Type II Diabetes mortality at Mexican border states.",
       "tags"     : "Chronic and Epidemics",
       "categories" : "Diabetes",
@@ -23,7 +39,7 @@
       "tags"     : "Air quality and Pollution",
       "categories" : "Rhinitis",
       "url"      : "/Rhinitis/",
-      "date"     : "01/09/2020"
+      "date"     : "11/09/2019"
     } ,
   
     {
@@ -35,11 +51,11 @@
     } ,
   
     {
-      "title"    : "Reliable information to improve health care outcomes.",
-      "tags"     : "Big data, Public Health, and Health economics",
-      "categories" : "Data Science",
-      "url"      : "/The-market-value-of-health-information/",
-      "date"     : "04/12/2018"
+      "title"    : "Geospatial approach to the social determinants of Cancer.",
+      "tags"     : "Cancer, Consumption patterns, and Social Determinants of Health",
+      "categories" : "Cancer",
+      "url"      : "/cancer/",
+      "date"     : "10/10/2018"
     } ,
   
     {
@@ -51,27 +67,11 @@
     } ,
   
     {
-      "title"    : "Spatial and temporal Expressions of chronic Kidney Disease in Mexico",
-      "tags"     : "renal disease, water quality, and Kidney",
-      "categories" : "Renal Failure",
-      "url"      : "/CKD/",
-      "date"     : "02/03/2018"
-    } ,
-  
-    {
-      "title"    : "Geospatial approach to the social determinants of Cancer.",
-      "tags"     : "Cancer, Consumption patterns, and Social Determinants of Health",
-      "categories" : "Cancer",
-      "url"      : "/cancer/",
-      "date"     : "08/14/2017"
-    } ,
-  
-    {
-      "title"    : "Mortality due to hypertensive diseases.",
-      "tags"     : "Hypertension, Indigenous population, and diet",
-      "categories" : "Hypertension",
-      "url"      : "/Hypertension/",
-      "date"     : "08/07/2017"
+      "title"    : "Reliable information to improve health care outcomes.",
+      "tags"     : "Big data, Public Health, and Health economics",
+      "categories" : "Data Science",
+      "url"      : "/The-market-value-of-health-information/",
+      "date"     : "03/11/2018"
     } ,
   
     {

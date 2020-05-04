@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 May 2020 12:40:27 -0700</pubDate>
-    <lastBuildDate>Mon, 04 May 2020 12:40:27 -0700</lastBuildDate>
+    <pubDate>Mon, 04 May 2020 13:15:40 -0700</pubDate>
+    <lastBuildDate>Mon, 04 May 2020 13:15:40 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -26,6 +26,38 @@
       </item>
     
       <item>
+        <title>Mortality due to hypertensive diseases.</title>
+        <description>&lt;p&gt;During the last decade, hypertensive diseases in Mexico has shown an increasing pattern that reveals a pubic health issue of concern with growing cost. This upward trend is particularly important in specific regions of the country such as the southern border, a region comprised by five states: Chiapas, Campeche, Quintana Roo, Yucatán y Tabasco.&lt;/p&gt; &lt;p&gt;This report analyzes patterns of mortality due to &lt;strong&gt;hypertensive diseases&lt;/strong&gt; in the southern border of Mexico, as well as the evolution of such mortality in the 1998-2014 period.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Hypertension is defined as a condition where a sustained increase in the blood pressure takes place, with...</description>
+        <pubDate>Wed, 05 Feb 2020 16:04:08 -0700</pubDate>
+        <link>http://localhost:4000/Hypertension/</link>
+        <guid isPermaLink="true">http://localhost:4000/Hypertension/</guid>
+        
+        <category>Hypertension</category>
+        
+        <category>Indigenous population</category>
+        
+        <category>diet</category>
+        
+        <category>Hypertension</category>
+      </item>
+    
+      <item>
+        <title>Spatial and temporal Expressions of chronic Kidney Disease in Mexico</title>
+        <description>&lt;p&gt;Given the recent growth trend by &lt;strong&gt;chronic diseases&lt;/strong&gt; taken place in some &lt;strong&gt;Latin American countries&lt;/strong&gt; such as Mexico, conducting research using a spatial approach is consider as a relevant way to provide insight into this public health treat.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;CDK treatment include high cost procedures such as hemodialysis or in advanced stages a need for transplants, thus contributing to understand Chronic kidney disease determinants is considered a relevant area of research with great social benefits.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;The aim of this report is to study the temporal and spatial pattern of chronic renal disease in Mexico during the last decade, explicitly...</description>
+        <pubDate>Mon, 03 Feb 2020 05:26:40 -0700</pubDate>
+        <link>http://localhost:4000/CKD/</link>
+        <guid isPermaLink="true">http://localhost:4000/CKD/</guid>
+        
+        <category>renal disease</category>
+        
+        <category>water quality</category>
+        
+        <category>Kidney</category>
+        
+        <category>Renal Failure</category>
+      </item>
+    
+      <item>
         <title>20 years of Type II Diabetes mortality at Mexican border states.</title>
         <description>&lt;blockquote&gt; &lt;p&gt;Despite the importance of geographic location to explain this epidemic, in the past decades the study of biological risk factors has been the dominant paradigm (Graves and Kayal, 2008; Stolar 2010).&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Although diabetes is a major public health problem in &lt;strong&gt;Mexico&lt;/strong&gt; previously thought to be related to population with relative higher income levels or affluent, recent studies had suggested an epidemiological transition impacting individuals in lower income regions.&lt;/p&gt; &lt;p&gt;Studies conducted with a focus on the Mexican population suggest that this transition may be linked to nutritional changes (Seuring, Goryakin &amp;amp; Suhrcke, 2015). Argument that highlights the importance to...</description>
         <pubDate>Wed, 22 Jan 2020 05:26:40 -0700</pubDate>
@@ -42,7 +74,7 @@
       <item>
         <title>Public health expressions in the  context of Mexican urban expansion.</title>
         <description>&lt;p&gt;The term &lt;strong&gt;Rhinitis&lt;/strong&gt; describes a disease characterized by an inflammation of the nasal mucosa. Unleashed by an immune system overreaction against particular trigger factors.&lt;/p&gt; &lt;p&gt;Symptoms can evolve taking a chronic or acute pattern. As well as appear in an intermittent fashion (Rombaux &amp;amp; Hellings 2014).&lt;/p&gt; &lt;p&gt;Complications related to this health condition in the group of chronic inferior respiratory airways problems, include diseases with a high impact on life quality of the family as well as considered as high management cost such as allergic asthma, &lt;strong&gt;(J450)&lt;/strong&gt; (Gutiérrez-Cardona et al. 2017).&lt;/p&gt; &lt;p&gt;Or comorbidities that affect superior airways including diseases such as chronic...</description>
-        <pubDate>Thu, 09 Jan 2020 05:26:40 -0700</pubDate>
+        <pubDate>Sat, 09 Nov 2019 05:26:40 -0700</pubDate>
         <link>http://localhost:4000/Rhinitis/</link>
         <guid isPermaLink="true">http://localhost:4000/Rhinitis/</guid>
         
@@ -70,19 +102,19 @@
       </item>
     
       <item>
-        <title>Reliable information to improve health care outcomes.</title>
-        <description>&lt;p&gt;&lt;strong&gt;Insight4health&lt;/strong&gt; provides a platform to analyze public health trends in Mexico’s Nothern border. Currently the US Mexico border region represent a huge emerging market in terms of health care information. The project &lt;strong&gt;Insight4health&lt;/strong&gt; incorporates data science tools that transforms data from several sources, both public and private, into detailed input for acurate decision making.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;em&gt;Generating evidence that contributes to design strategies to efficiently allocate resources is a permanent task that is relevant particularly when dealing with high cost diseases. Having access to reliable information becomes key to achieve this goal&lt;/em&gt;.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;unleash-data-science-potential-to-analyze-public-health-patterns&quot;&gt;Unleash data science potential to analyze public...</description>
-        <pubDate>Thu, 12 Apr 2018 12:17:18 -0700</pubDate>
-        <link>http://localhost:4000/The-market-value-of-health-information/</link>
-        <guid isPermaLink="true">http://localhost:4000/The-market-value-of-health-information/</guid>
+        <title>Geospatial approach to the social determinants of Cancer.</title>
+        <description>&lt;p&gt;It is important to better understand &lt;strong&gt;cancer&lt;/strong&gt; dissemination and its &lt;strong&gt;geographic patterns&lt;/strong&gt;. The study of its &lt;strong&gt;spatial distribution&lt;/strong&gt; can contribute to implement target preventive and control strategies allowing a reduction of the social cost and financial burden for the health care system.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Social determinants of economic origin such as income levels or consumption patterns are two research areas of concern. Income conditions are a key component of poverty which in turn influence health care access mechanisms such as early detection, treatment options and management decisions. In the other hand, consumption patterns represent a latent exposure mechanism to compounds and...</description>
+        <pubDate>Wed, 10 Oct 2018 15:55:45 -0700</pubDate>
+        <link>http://localhost:4000/cancer/</link>
+        <guid isPermaLink="true">http://localhost:4000/cancer/</guid>
         
-        <category>Big data</category>
+        <category>Cancer</category>
         
-        <category>Public Health</category>
+        <category>Consumption patterns</category>
         
-        <category>Health economics</category>
+        <category>Social Determinants of Health</category>
         
-        <category>Data Science</category>
+        <category>Cancer</category>
       </item>
     
       <item>
@@ -102,51 +134,19 @@
       </item>
     
       <item>
-        <title>Spatial and temporal Expressions of chronic Kidney Disease in Mexico</title>
-        <description>&lt;p&gt;Given the recent growth trend by &lt;strong&gt;chronic diseases&lt;/strong&gt; taken place in some &lt;strong&gt;Latin American countries&lt;/strong&gt; such as Mexico, conducting research using a spatial approach is consider as a relevant way to provide insight into this public health treat.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;CDK treatment include high cost procedures such as hemodialysis or in advanced stages a need for transplants, thus contributing to understand Chronic kidney disease determinants is considered a relevant area of research with great social benefits.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;The aim of this report is to study the temporal and spatial pattern of chronic renal disease in Mexico during the last decade, explicitly...</description>
-        <pubDate>Sat, 03 Feb 2018 05:26:40 -0700</pubDate>
-        <link>http://localhost:4000/CKD/</link>
-        <guid isPermaLink="true">http://localhost:4000/CKD/</guid>
+        <title>Reliable information to improve health care outcomes.</title>
+        <description>&lt;p&gt;&lt;strong&gt;Insight4health&lt;/strong&gt; provides a platform to analyze public health trends in Mexico’s Nothern border. Currently the US Mexico border region represent a huge emerging market in terms of health care information. The project &lt;strong&gt;Insight4health&lt;/strong&gt; incorporates data science tools that transforms data from several sources, both public and private, into detailed input for acurate decision making.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;em&gt;Generating evidence that contributes to design strategies to efficiently allocate resources is a permanent task that is relevant particularly when dealing with high cost diseases. Having access to reliable information becomes key to achieve this goal&lt;/em&gt;.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;unleash-data-science-potential-to-analyze-public-health-patterns&quot;&gt;Unleash data science potential to analyze public...</description>
+        <pubDate>Sun, 11 Mar 2018 12:17:18 -0700</pubDate>
+        <link>http://localhost:4000/The-market-value-of-health-information/</link>
+        <guid isPermaLink="true">http://localhost:4000/The-market-value-of-health-information/</guid>
         
-        <category>renal disease</category>
+        <category>Big data</category>
         
-        <category>water quality</category>
+        <category>Public Health</category>
         
-        <category>Kidney</category>
+        <category>Health economics</category>
         
-        <category>Renal Failure</category>
-      </item>
-    
-      <item>
-        <title>Geospatial approach to the social determinants of Cancer.</title>
-        <description>&lt;p&gt;It is important to better understand &lt;strong&gt;cancer&lt;/strong&gt; dissemination and its &lt;strong&gt;geographic patterns&lt;/strong&gt;. The study of its &lt;strong&gt;spatial distribution&lt;/strong&gt; can contribute to implement target preventive and control strategies allowing a reduction of the social cost and financial burden for the health care system.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Social determinants of economic origin such as income levels or consumption patterns are two research areas of concern. Income conditions are a key component of poverty which in turn influence health care access mechanisms such as early detection, treatment options and management decisions. In the other hand, consumption patterns represent a latent exposure mechanism to compounds and...</description>
-        <pubDate>Mon, 14 Aug 2017 15:55:45 -0700</pubDate>
-        <link>http://localhost:4000/cancer/</link>
-        <guid isPermaLink="true">http://localhost:4000/cancer/</guid>
-        
-        <category>Cancer</category>
-        
-        <category>Consumption patterns</category>
-        
-        <category>Social Determinants of Health</category>
-        
-        <category>Cancer</category>
-      </item>
-    
-      <item>
-        <title>Mortality due to hypertensive diseases.</title>
-        <description>&lt;p&gt;During the last decade, hypertensive diseases in Mexico has shown an increasing pattern that reveals a pubic health issue of concern with growing cost. This upward trend is particularly important in specific regions of the country such as the southern border, a region comprised by five states: Chiapas, Campeche, Quintana Roo, Yucatán y Tabasco.&lt;/p&gt; &lt;p&gt;This report analyzes patterns of mortality due to &lt;strong&gt;hypertensive diseases&lt;/strong&gt; in the southern border of Mexico, as well as the evolution of such mortality in the 1998-2014 period.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Hypertension is defined as a condition where a sustained increase in the blood pressure takes place, with...</description>
-        <pubDate>Mon, 07 Aug 2017 16:04:08 -0700</pubDate>
-        <link>http://localhost:4000/Hypertension/</link>
-        <guid isPermaLink="true">http://localhost:4000/Hypertension/</guid>
-        
-        <category>Hypertension</category>
-        
-        <category>Indigenous population</category>
-        
-        <category>diet</category>
-        
-        <category>Hypertension</category>
+        <category>Data Science</category>
       </item>
     
       <item>
