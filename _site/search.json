@@ -67,14 +67,6 @@
     } ,
   
     {
-      "title"    : "Reliable information to improve health care outcomes.",
-      "tags"     : "Big data, Public Health, and Health economics",
-      "categories" : "Data Science",
-      "url"      : "/The-market-value-of-health-information/",
-      "date"     : "03/11/2018"
-    } ,
-  
-    {
       "title"    : "Viral infection from mosquito bites in Mexico in the period 2004-2014.",
       "tags"     : "Zika, Vector-borne, and Aedes aegypti",
       "categories" : "Zika virus",
@@ -96,6 +88,14 @@
       "categories" : "Environmental Health",
       "url"      : "/Minning/",
       "date"     : "06/04/2017"
+    } ,
+  
+    {
+      "title"    : "Reliable information to improve health care outcomes.",
+      "tags"     : "Big data, Public Health, and Health economics",
+      "categories" : "Data Science",
+      "url"      : "/The-market-value-of-health-information/",
+      "date"     : "03/11/2017"
     } 
   
 ]
