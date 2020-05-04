@@ -19,6 +19,14 @@
     } ,
   
     {
+      "title"    : "20 years of Type II Diabetes mortality at Mexican border states.",
+      "tags"     : "Chronic and Epidemics",
+      "categories" : "Diabetes",
+      "url"      : "/Diabetes/",
+      "date"     : "01/22/2020"
+    } ,
+  
+    {
       "title"    : "Reliable information to improve health care outcomes.",
       "tags"     : "Big data, Public Health, and Health economics",
       "categories" : "Data Science",
@@ -32,14 +40,6 @@
       "categories" : "Suicide",
       "url"      : "/Suicide/",
       "date"     : "04/05/2019"
-    } ,
-  
-    {
-      "title"    : "20 years of Type II Diabetes mortality at Mexican border states.",
-      "tags"     : "Chronic and Epidemics",
-      "categories" : "Diabetes",
-      "url"      : "/Diabetes/",
-      "date"     : "11/22/2018"
     } ,
   
     {
