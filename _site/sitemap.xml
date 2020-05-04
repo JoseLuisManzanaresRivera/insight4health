@@ -271,17 +271,17 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/Rhinitis/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2019-11-09</lastmod>
-        </url>
-    
-        <url>
             <loc>http://localhost:4000/Suicide/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2019-04-05</lastmod>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/Rhinitis/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2019-04-04</lastmod>
         </url>
     
         <url>

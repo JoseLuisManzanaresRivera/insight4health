@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 May 2020 13:15:40 -0700</pubDate>
-    <lastBuildDate>Mon, 04 May 2020 13:15:40 -0700</lastBuildDate>
+    <pubDate>Mon, 04 May 2020 13:22:37 -0700</pubDate>
+    <lastBuildDate>Mon, 04 May 2020 13:22:37 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -72,20 +72,6 @@
       </item>
     
       <item>
-        <title>Public health expressions in the  context of Mexican urban expansion.</title>
-        <description>&lt;p&gt;The term &lt;strong&gt;Rhinitis&lt;/strong&gt; describes a disease characterized by an inflammation of the nasal mucosa. Unleashed by an immune system overreaction against particular trigger factors.&lt;/p&gt; &lt;p&gt;Symptoms can evolve taking a chronic or acute pattern. As well as appear in an intermittent fashion (Rombaux &amp;amp; Hellings 2014).&lt;/p&gt; &lt;p&gt;Complications related to this health condition in the group of chronic inferior respiratory airways problems, include diseases with a high impact on life quality of the family as well as considered as high management cost such as allergic asthma, &lt;strong&gt;(J450)&lt;/strong&gt; (Gutiérrez-Cardona et al. 2017).&lt;/p&gt; &lt;p&gt;Or comorbidities that affect superior airways including diseases such as chronic...</description>
-        <pubDate>Sat, 09 Nov 2019 05:26:40 -0700</pubDate>
-        <link>http://localhost:4000/Rhinitis/</link>
-        <guid isPermaLink="true">http://localhost:4000/Rhinitis/</guid>
-        
-        <category>Air quality</category>
-        
-        <category>Pollution</category>
-        
-        <category>Rhinitis</category>
-      </item>
-    
-      <item>
         <title>Suicide Mortality in México. studying Territorial Patterns.</title>
         <description>&lt;blockquote&gt; &lt;p&gt;&lt;em&gt;“Too often health professionals are focused on what is simpler, that is treat a medical or mental illness, whereas facing suicide risk goes beyond the traditional approach and involves human understanding of suffering.”&lt;/em&gt; Maurizio Pompili. 2018&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;During the last 20 years, suicide as a death cause in Mexico, reach a 74.8% growth, which translates into a 3.74% annual increase rate. This pattern surpassed by 60% the dynamics observed by the overall causes of death.&lt;/p&gt; &lt;p&gt;This report documents Mexico´s suicide evolution in time during the period 1998-2017 with a focus on &lt;strong&gt;Aguascalientes&lt;/strong&gt; State. The methodology is based on exploratory...</description>
         <pubDate>Fri, 05 Apr 2019 05:26:40 -0700</pubDate>
@@ -99,6 +85,20 @@
         <category>Google Trends</category>
         
         <category>Suicide</category>
+      </item>
+    
+      <item>
+        <title>Public health expressions in the  context of Mexican urban expansion.</title>
+        <description>&lt;p&gt;The term &lt;strong&gt;Rhinitis&lt;/strong&gt; describes a disease characterized by an inflammation of the nasal mucosa. Unleashed by an immune system overreaction against particular trigger factors.&lt;/p&gt; &lt;p&gt;Symptoms can evolve taking a chronic or acute pattern. As well as appear in an intermittent fashion (Rombaux &amp;amp; Hellings 2014).&lt;/p&gt; &lt;p&gt;Complications related to this health condition in the group of chronic inferior respiratory airways problems, include diseases with a high impact on life quality of the family as well as considered as high management cost such as allergic asthma, &lt;strong&gt;(J450)&lt;/strong&gt; (Gutiérrez-Cardona et al. 2017).&lt;/p&gt; &lt;p&gt;Or comorbidities that affect superior airways including diseases such as chronic...</description>
+        <pubDate>Thu, 04 Apr 2019 05:26:40 -0700</pubDate>
+        <link>http://localhost:4000/Rhinitis/</link>
+        <guid isPermaLink="true">http://localhost:4000/Rhinitis/</guid>
+        
+        <category>Air quality</category>
+        
+        <category>Pollution</category>
+        
+        <category>Rhinitis</category>
       </item>
     
       <item>
