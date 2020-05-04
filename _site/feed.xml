@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 May 2020 12:39:03 -0700</pubDate>
-    <lastBuildDate>Mon, 04 May 2020 12:39:03 -0700</lastBuildDate>
+    <pubDate>Mon, 04 May 2020 12:40:27 -0700</pubDate>
+    <lastBuildDate>Mon, 04 May 2020 12:40:27 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -54,22 +54,6 @@
       </item>
     
       <item>
-        <title>Reliable information to improve health care outcomes.</title>
-        <description>&lt;p&gt;&lt;strong&gt;Insight4health&lt;/strong&gt; provides a platform to analyze public health trends in Mexico’s Nothern border. Currently the US Mexico border region represent a huge emerging market in terms of health care information. The project &lt;strong&gt;Insight4health&lt;/strong&gt; incorporates data science tools that transforms data from several sources, both public and private, into detailed input for acurate decision making.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;em&gt;Generating evidence that contributes to design strategies to efficiently allocate resources is a permanent task that is relevant particularly when dealing with high cost diseases. Having access to reliable information becomes key to achieve this goal&lt;/em&gt;.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;unleash-data-science-potential-to-analyze-public-health-patterns&quot;&gt;Unleash data science potential to analyze public...</description>
-        <pubDate>Sun, 12 May 2019 12:17:18 -0700</pubDate>
-        <link>http://localhost:4000/The-market-value-of-health-information/</link>
-        <guid isPermaLink="true">http://localhost:4000/The-market-value-of-health-information/</guid>
-        
-        <category>Big data</category>
-        
-        <category>Public Health</category>
-        
-        <category>Health economics</category>
-        
-        <category>Data Science</category>
-      </item>
-    
-      <item>
         <title>Suicide Mortality in México. studying Territorial Patterns.</title>
         <description>&lt;blockquote&gt; &lt;p&gt;&lt;em&gt;“Too often health professionals are focused on what is simpler, that is treat a medical or mental illness, whereas facing suicide risk goes beyond the traditional approach and involves human understanding of suffering.”&lt;/em&gt; Maurizio Pompili. 2018&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;During the last 20 years, suicide as a death cause in Mexico, reach a 74.8% growth, which translates into a 3.74% annual increase rate. This pattern surpassed by 60% the dynamics observed by the overall causes of death.&lt;/p&gt; &lt;p&gt;This report documents Mexico´s suicide evolution in time during the period 1998-2017 with a focus on &lt;strong&gt;Aguascalientes&lt;/strong&gt; State. The methodology is based on exploratory...</description>
         <pubDate>Fri, 05 Apr 2019 05:26:40 -0700</pubDate>
@@ -83,6 +67,22 @@
         <category>Google Trends</category>
         
         <category>Suicide</category>
+      </item>
+    
+      <item>
+        <title>Reliable information to improve health care outcomes.</title>
+        <description>&lt;p&gt;&lt;strong&gt;Insight4health&lt;/strong&gt; provides a platform to analyze public health trends in Mexico’s Nothern border. Currently the US Mexico border region represent a huge emerging market in terms of health care information. The project &lt;strong&gt;Insight4health&lt;/strong&gt; incorporates data science tools that transforms data from several sources, both public and private, into detailed input for acurate decision making.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;em&gt;Generating evidence that contributes to design strategies to efficiently allocate resources is a permanent task that is relevant particularly when dealing with high cost diseases. Having access to reliable information becomes key to achieve this goal&lt;/em&gt;.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;unleash-data-science-potential-to-analyze-public-health-patterns&quot;&gt;Unleash data science potential to analyze public...</description>
+        <pubDate>Thu, 12 Apr 2018 12:17:18 -0700</pubDate>
+        <link>http://localhost:4000/The-market-value-of-health-information/</link>
+        <guid isPermaLink="true">http://localhost:4000/The-market-value-of-health-information/</guid>
+        
+        <category>Big data</category>
+        
+        <category>Public Health</category>
+        
+        <category>Health economics</category>
+        
+        <category>Data Science</category>
       </item>
     
       <item>

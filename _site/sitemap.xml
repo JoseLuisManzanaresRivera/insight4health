@@ -264,17 +264,17 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/The-market-value-of-health-information/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2019-05-12</lastmod>
-        </url>
-    
-        <url>
             <loc>http://localhost:4000/Suicide/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2019-04-05</lastmod>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/The-market-value-of-health-information/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2018-04-12</lastmod>
         </url>
     
         <url>

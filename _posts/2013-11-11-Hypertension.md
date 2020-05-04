@@ -1,5 +1,5 @@
 ---
-date: 2017-08-07 23:04:08
+date: 2020-01-015 23:04:08
 layout: post
 title: Mortality due to hypertensive diseases. 
 subtitle: Evidence from the southern Mexican border. 
