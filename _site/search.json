@@ -43,19 +43,19 @@
     } ,
   
     {
-      "title"    : "Public health expressions in the  context of Mexican urban expansion.",
-      "tags"     : "Air quality and Pollution",
-      "categories" : "Rhinitis",
-      "url"      : "/Rhinitis/",
-      "date"     : "04/04/2019"
-    } ,
-  
-    {
       "title"    : "Geospatial approach to the social determinants of Cancer.",
       "tags"     : "Cancer, Consumption patterns, and Social Determinants of Health",
       "categories" : "Cancer",
       "url"      : "/cancer/",
       "date"     : "10/10/2018"
+    } ,
+  
+    {
+      "title"    : "Public health expressions in the  context of Mexican urban expansion.",
+      "tags"     : "Air quality and Pollution",
+      "categories" : "Rhinitis",
+      "url"      : "/Rhinitis/",
+      "date"     : "04/04/2018"
     } ,
   
     {
