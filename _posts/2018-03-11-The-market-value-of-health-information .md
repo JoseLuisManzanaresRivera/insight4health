@@ -1,5 +1,5 @@
 ---
-date: 2018-05-12T19:17:18.000Z
+date: 2018-05-12 19:17:18
 layout: post
 title: Reliable information to improve health care outcomes. 
 subtitle: Turning data into valuable knowledge.  Explore health trends overtime and it's geographic patterns.
