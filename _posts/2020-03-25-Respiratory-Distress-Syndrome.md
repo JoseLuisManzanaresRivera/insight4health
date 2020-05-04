@@ -32,10 +32,6 @@ The analysis results allow identifying specific regions where preventive strateg
 [Get free acces to report](https://revistas.javeriana.edu.co/files-articulos/RGPS/18-36%20(2019-I)/54559086001/)
 
 
-[Like it? Share it, Contribute!](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LJ35ZPFKW82VN&source=url)
-
-![contribute](https://res.cloudinary.com/joseluismanzanaresrivera/image/upload/v1585791798/C%C3%B3digo_QR_z5gc74.png)
-
 
 
 **References.** 
