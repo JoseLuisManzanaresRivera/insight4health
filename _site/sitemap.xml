@@ -250,6 +250,13 @@
         </url>
     
         <url>
+            <loc>http://localhost:4000/Does-the-border-matter-for-health-care/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2020-03-19</lastmod>
+        </url>
+    
+        <url>
             <loc>http://localhost:4000/Hypertension/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
@@ -303,13 +310,6 @@
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2017-07-29</lastmod>
-        </url>
-    
-        <url>
-            <loc>http://localhost:4000/Does-the-border-matter-for-health-care/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2017-06-08</lastmod>
         </url>
     
         <url>

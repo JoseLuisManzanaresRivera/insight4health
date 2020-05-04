@@ -1,5 +1,5 @@
 ---
-date: 2017-06-08 12:00:00
+date: 2020-03-19 12:00:00
 layout: post
 title: Does the border matter for health care?
 subtitle: A study of medical services provider’s location at urban scale in the Mexican cities of the US-MX border.

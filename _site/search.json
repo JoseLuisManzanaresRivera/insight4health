@@ -11,6 +11,14 @@
     } ,
   
     {
+      "title"    : "Does the border matter for health care?",
+      "tags"     : "Medical services, US-Mexico health, and Border",
+      "categories" : "USMX-Border",
+      "url"      : "/Does-the-border-matter-for-health-care/",
+      "date"     : "03/19/2020"
+    } ,
+  
+    {
       "title"    : "Mortality due to hypertensive diseases.",
       "tags"     : "Hypertension, Indigenous population, and diet",
       "categories" : "Hypertension",
@@ -72,14 +80,6 @@
       "categories" : "Zika virus",
       "url"      : "/Zika/",
       "date"     : "07/29/2017"
-    } ,
-  
-    {
-      "title"    : "Does the border matter for health care?",
-      "tags"     : "Medical services, US-Mexico health, and Border",
-      "categories" : "USMX-Border",
-      "url"      : "/Does-the-border-matter-for-health-care/",
-      "date"     : "06/08/2017"
     } ,
   
     {
