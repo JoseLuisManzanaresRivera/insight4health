@@ -43,6 +43,14 @@
     } ,
   
     {
+      "title"    : "Viral infection from mosquito bites in Mexico in the period 2004-2014.",
+      "tags"     : "Zika, Vector-borne, and Aedes aegypti",
+      "categories" : "Zika virus",
+      "url"      : "/Zika/",
+      "date"     : "04/26/2019"
+    } ,
+  
+    {
       "title"    : "Suicide Mortality in México. studying Territorial Patterns.",
       "tags"     : "Mental Health, Depression, and Google Trends",
       "categories" : "Suicide",
@@ -72,14 +80,6 @@
       "categories" : "Coccidioidemycosis",
       "url"      : "/coccidiodemycosis/",
       "date"     : "03/12/2018"
-    } ,
-  
-    {
-      "title"    : "Viral infection from mosquito bites in Mexico in the period 2004-2014.",
-      "tags"     : "Zika, Vector-borne, and Aedes aegypti",
-      "categories" : "Zika virus",
-      "url"      : "/Zika/",
-      "date"     : "07/29/2017"
     } ,
   
     {

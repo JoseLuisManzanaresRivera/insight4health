@@ -5,8 +5,8 @@
     <description>insight4health is an iniciative created to provide high quality  information about  Mortality trends in Mexico.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 May 2020 13:28:58 -0700</pubDate>
-    <lastBuildDate>Mon, 04 May 2020 13:28:58 -0700</lastBuildDate>
+    <pubDate>Mon, 04 May 2020 13:33:00 -0700</pubDate>
+    <lastBuildDate>Mon, 04 May 2020 13:33:00 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -88,6 +88,22 @@
       </item>
     
       <item>
+        <title>Viral infection from mosquito bites in Mexico in the period 2004-2014.</title>
+        <description>&lt;p&gt;While viral infections transmitted by mosquito bites are not a new phenomenon, until recently, this kind of health treat has been acquiring particular importance considering its rapid expansion and its apparent link to some serious neurologic manifestations observed in conditions as those produced by *Zika virus**, a health condition that was declared an international public health emergency.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;There is not yet an antiviral approved for Vector-borne diseases such as Zika virus, so preventive measures can help reduce the negative impacts on the population of this peculiar disease.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;This report aims to determine the spatial distribution of hospital discharges...</description>
+        <pubDate>Fri, 26 Apr 2019 06:24:49 -0700</pubDate>
+        <link>http://localhost:4000/Zika/</link>
+        <guid isPermaLink="true">http://localhost:4000/Zika/</guid>
+        
+        <category>Zika</category>
+        
+        <category>Vector-borne</category>
+        
+        <category>Aedes aegypti</category>
+        
+        <category>Zika virus</category>
+      </item>
+    
+      <item>
         <title>Suicide Mortality in México. studying Territorial Patterns.</title>
         <description>&lt;blockquote&gt; &lt;p&gt;&lt;em&gt;“Too often health professionals are focused on what is simpler, that is treat a medical or mental illness, whereas facing suicide risk goes beyond the traditional approach and involves human understanding of suffering.”&lt;/em&gt; Maurizio Pompili. 2018&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;During the last 20 years, suicide as a death cause in Mexico, reach a 74.8% growth, which translates into a 3.74% annual increase rate. This pattern surpassed by 60% the dynamics observed by the overall causes of death.&lt;/p&gt; &lt;p&gt;This report documents Mexico´s suicide evolution in time during the period 1998-2017 with a focus on &lt;strong&gt;Aguascalientes&lt;/strong&gt; State. The methodology is based on exploratory...</description>
         <pubDate>Fri, 05 Apr 2019 05:26:40 -0700</pubDate>
@@ -147,22 +163,6 @@
         <category>Environmental health</category>
         
         <category>Coccidioidemycosis</category>
-      </item>
-    
-      <item>
-        <title>Viral infection from mosquito bites in Mexico in the period 2004-2014.</title>
-        <description>&lt;p&gt;While viral infections transmitted by mosquito bites are not a new phenomenon, until recently, this kind of health treat has been acquiring particular importance considering its rapid expansion and its apparent link to some serious neurologic manifestations observed in conditions as those produced by *Zika virus**, a health condition that was declared an international public health emergency.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;There is not yet an antiviral approved for Vector-borne diseases such as Zika virus, so preventive measures can help reduce the negative impacts on the population of this peculiar disease.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;This report aims to determine the spatial distribution of hospital discharges...</description>
-        <pubDate>Sat, 29 Jul 2017 06:24:49 -0700</pubDate>
-        <link>http://localhost:4000/Zika/</link>
-        <guid isPermaLink="true">http://localhost:4000/Zika/</guid>
-        
-        <category>Zika</category>
-        
-        <category>Vector-borne</category>
-        
-        <category>Aedes aegypti</category>
-        
-        <category>Zika virus</category>
       </item>
     
       <item>
