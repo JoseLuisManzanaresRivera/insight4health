@@ -59,14 +59,6 @@
     } ,
   
     {
-      "title"    : "Geospatial approach to the social determinants of Cancer.",
-      "tags"     : "Cancer, Consumption patterns, and Social Determinants of Health",
-      "categories" : "Cancer",
-      "url"      : "/cancer/",
-      "date"     : "10/10/2018"
-    } ,
-  
-    {
       "title"    : "Public health expressions in the  context of Mexican urban expansion.",
       "tags"     : "Air quality and Pollution",
       "categories" : "Rhinitis",
@@ -80,6 +72,14 @@
       "categories" : "Coccidioidemycosis",
       "url"      : "/coccidiodemycosis/",
       "date"     : "03/12/2018"
+    } ,
+  
+    {
+      "title"    : "Geospatial approach to the social determinants of Cancer.",
+      "tags"     : "Cancer, Consumption patterns, and Social Determinants of Health",
+      "categories" : "Cancer",
+      "url"      : "/cancer/",
+      "date"     : "01/01/2018"
     } ,
   
     {
