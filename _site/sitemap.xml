@@ -250,17 +250,17 @@
         </url>
     
         <url>
-            <loc>http://localhost:4000/Rhinitis/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2020-02-09</lastmod>
-        </url>
-    
-        <url>
             <loc>http://localhost:4000/Diabetes/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2020-01-22</lastmod>
+        </url>
+    
+        <url>
+            <loc>http://localhost:4000/Rhinitis/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2020-01-09</lastmod>
         </url>
     
         <url>

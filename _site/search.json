@@ -11,19 +11,19 @@
     } ,
   
     {
-      "title"    : "Public health expressions in the  context of Mexican urban expansion.",
-      "tags"     : "Air quality and Pollution",
-      "categories" : "Rhinitis",
-      "url"      : "/Rhinitis/",
-      "date"     : "02/09/2020"
-    } ,
-  
-    {
       "title"    : "20 years of Type II Diabetes mortality at Mexican border states.",
       "tags"     : "Chronic and Epidemics",
       "categories" : "Diabetes",
       "url"      : "/Diabetes/",
       "date"     : "01/22/2020"
+    } ,
+  
+    {
+      "title"    : "Public health expressions in the  context of Mexican urban expansion.",
+      "tags"     : "Air quality and Pollution",
+      "categories" : "Rhinitis",
+      "url"      : "/Rhinitis/",
+      "date"     : "01/09/2020"
     } ,
   
     {
