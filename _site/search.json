@@ -11,14 +11,6 @@
     } ,
   
     {
-      "title"    : "SARS-coV-2",
-      "tags"     : "covid19, pandemic, and usmx border",
-      "categories" : "COVID19",
-      "url"      : "/covid19/",
-      "date"     : "03/24/2020"
-    } ,
-  
-    {
       "title"    : "Does the border matter for health care?",
       "tags"     : "Medical services, US-Mexico health, and Border",
       "categories" : "USMX-Border",
