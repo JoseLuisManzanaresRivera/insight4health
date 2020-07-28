@@ -6,7 +6,7 @@ subtitle: Monitoring instruments to measure its evolution.
 description: One of the challenges identified to design effective colon cancer control  strategies on a global scale is to have monitoring instruments to measure its evolution. This paper provides evidence to   monitor mortality from colon cancer, integrating the spatial and temporal dimension.
 image: https://res.cloudinary.com/jlmrpics/image/upload/v1595907992/john-cameron-6-5Ul3I6vSE-unsplash_v2m1z7.jpg
 optimized_image: https://res.cloudinary.com/jlmrpics/image/upload/v1595907992/john-cameron-6-5Ul3I6vSE-unsplash_v2m1z7.jpg
-category: Cancer.
+category: CANCER.
 tags:
 - Colon Cáncer
 - food consumption
