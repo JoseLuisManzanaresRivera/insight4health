@@ -3,8 +3,8 @@ date: "2021-01-10 10:26:42"
 layout: post
 title: Lung cancer
 subtitle: Resources for the evaluation of public policy on lung cancer in Mexico
-
-description: Deaths from lung cancer in Mexico dropped by 14.5% between the period prior to implementation of the General Law on Tobacco Control and the year 2017. A 22% reduction was observed for the male population by the end of the entire 20 year study period. There is evidence of an  imbalance between the demand for oncological services and the availability of specialists.
+author: "José Luis Manzanares Rivera"
+description: One of the challenges identified to design effective colon cancer control  strategies on a global scale is to have monitoring instruments to measure its evolution. 
 image: https://res.cloudinary.com/jlmrpics/image/upload/v1610336578/m-azharul-islam-FUcOQBIfeXM-unsplash_jtprlp.jpg
 optimized_image: https://res.cloudinary.com/jlmrpics/image/upload/v1610342499/mister-james-Xul_BSzt2wo-unsplash_pdrbdo.jpg
 category: LUNG HEALTH
