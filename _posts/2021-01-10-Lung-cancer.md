@@ -12,7 +12,6 @@ tags:
 - Lung Cáncer
 - COPD
 - Smoking
-
 ---
   
   
