@@ -1,17 +1,21 @@
 ---
-date: "2021-01-10 12:26:42"
-layout: post
-title: Lung cancer
-subtitle: Resources for the evaluation of public policy on lung cancer in Mexico.
+title: "Lung cancer"
 author: "José Luis Manzanares Rivera"
-description: Deaths from lung cancer in Mexico dropped by 14.5% between the period prior to implementation of the General Law on Tobacco Control and the year 2017. A 22% reduction was observed for the male population by the end of the entire 20 year study period. There is evidence of an imbalance between the demand for oncological services and the availability of specialists.
+date: "2021-01-10 12:26:42"
+description: Deaths from lung cancer in Mexico dropped by 14.5% between the period
+  prior to implementation of the General Law on Tobacco Control and the year 2017.
+  A 22% reduction was observed for the male population by the end of the entire 20
+  year study period. There is evidence of an imbalance between the demand for oncological
+  services and the availability of specialists.
 image: https://res.cloudinary.com/jlmrpics/image/upload/v1610336578/m-azharul-islam-FUcOQBIfeXM-unsplash_jtprlp.jpg
+layout: post
 optimized_image: https://res.cloudinary.com/jlmrpics/image/upload/v1610336237/roya-ann-miller-Rdsc2L517iQ-unsplash_l34wax.jpg
-category: Lung health.
+subtitle: Resources for the evaluation of public policy on lung cancer in Mexico.
 tags:
 - Lung Cáncer
 - COPD
 - Smoking
+category: LUNG HEALTH.
 ---
   
   
