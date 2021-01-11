@@ -4,7 +4,7 @@ layout: post
 title: Colon cancer on the Mexican Border States
 subtitle: Monitoring instruments to measure its evolution.
 author: "José Luis Manzanares Rivera"
-description: One of the challenges identified to design effective colon cancer control  strategies on a global scale is to have monitoring instruments to measure its evolution. This paper provides evidence to   monitor mortality from colon cancer, integrating the spatial and temporal dimension.
+description: One of the challenges identified to design effective colon cancer control  strategies on a global scale is to have monitoring instruments to measure its evolution. 
 image: https://res.cloudinary.com/jlmrpics/image/upload/v1595985284/renee-fisher-lTkF2Tdx9uI-unsplash_xkv6hd.jpg
 optimized_image: https://res.cloudinary.com/jlmrpics/image/upload/v1595985284/renee-fisher-lTkF2Tdx9uI-unsplash_xkv6hd.jpg
 category: CANCER.
