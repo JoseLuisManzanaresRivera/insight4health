@@ -12,7 +12,6 @@ tags:
 - Lung Cáncer
 - COPD
 - Smoking
-author: José Luis Manzanares Rivera
 
 ---
   
@@ -23,4 +22,6 @@ We  aim to contrast the territorial distribution of demand for oncological servi
 Despite reductions in lung cancer mortality patterns in Mexico in the last two decades, the analysis showed persistent areas of opportunity for improvement, mainly for the female population of Guerrero, Oaxaca, and Puebla states. Based on this research, the main recommendation for aiming efforts to manage this oncological disease in Mexico is to determine whether these patterns are associated with smoking habits or with other social determinants.
 
 [Get free acces to report](https://iris.paho.org/handle/10665.2/53153)
+
+[covid](C:/Users/LENOVO/Desktop/DESK/web/insight4health/assets/html/leafletmap.html)
 
