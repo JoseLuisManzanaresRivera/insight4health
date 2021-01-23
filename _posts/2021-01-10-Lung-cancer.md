@@ -24,5 +24,4 @@ Despite reductions in lung cancer mortality patterns in Mexico in the last two d
 [Get free acces to report](https://iris.paho.org/handle/10665.2/53153)
 
 
-{% include leaflet.html %}
 
