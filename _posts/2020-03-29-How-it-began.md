@@ -15,9 +15,8 @@ tags:
 
 ---
 
-[Access data analysis]("C:/Users/josel/Desktop/on/web/insight4health/assets/leafletmap.html")
+[Access data analysis](C:/Users/josel/Desktop/on/web/insight4health/assets/leafletmap.html)
 
 
-file.path(getwd(), "leafletmap.html")
 
 
