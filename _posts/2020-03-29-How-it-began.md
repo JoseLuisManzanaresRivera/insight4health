@@ -15,7 +15,7 @@ tags:
 
 ---
 
-[Access data analysis](./leafletmap.html)
+[Access data analysis](leafletmap.html)
 
 
 
