@@ -17,7 +17,7 @@ tags:
 
 [Access data analysis](../assets/html/leafletmap.html)
 
-[Remembering the first COVID19 case in Sonora ](../assets/html/border.html)
+[The first COVID19 case in Sonora](../assets/html/border.html)
 
 [Border](../assets/html/border_speech.html)
 
