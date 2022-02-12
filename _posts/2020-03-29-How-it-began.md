@@ -19,10 +19,3 @@ tags:
 
 [The first COVID19 case in Sonora](../assets/html/border.html)
 
-[Border](../assets/html/border_speech.html)
-
-
-*Disclaimer*
-
->Research conducted at El Colegio de la Frontera Norte. Analysis and opinions expressed are the authors responsibility and does not necessarily reflect an institutional position on the matter. Copyright © 2022, All graphic materials used in this academic presentation are intended for educational purposes only and are used under a total non for profit research setting.
-
