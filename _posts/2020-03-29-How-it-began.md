@@ -14,7 +14,7 @@ tags:
 - Outbreak
 ---
 
-What can we learn by looking back to the early days of Mexico?s data collected about the COVID 19 outbreak? How federal and state authorities managed information dissemination to the public?  This and other issues can be analyzed by looking at the early days of this outbreak data at a local scale.
+What can we learn by looking back to the early days of Mexico?s data collected about the COVID 19 outbreak? How federal and state authorities managed information dissemination to the public?  These and other issues, can be analyzed by looking at the early days of SARsCoV2 outbreak data at a local scale.
 
 [Access data analysis](../assets/html/leafletmap.html)
 
