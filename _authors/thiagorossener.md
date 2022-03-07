@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/jlmr.jpg
+photo: /assets/img/uploads/jlmr.png
 name: José Luis Manzanares Rivera
 display_name: José Luis Manzanares Rivera
 position:   
