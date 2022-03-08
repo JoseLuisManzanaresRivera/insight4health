@@ -7,7 +7,7 @@ permalink: /about/
 description: yoremia.
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
+<img class="img-rounded" src="/assets/img/uploads/propic.png" alt="Thiago Rossener" width="200">
 
 # About
 
