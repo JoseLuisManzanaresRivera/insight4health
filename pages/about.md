@@ -5,9 +5,9 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
+<img class="img-rounded" src="/assets/img/uploads/propic.png" alt="Thiago Rossener" width="200">
 
-# About
+# Know the author and collaborate!
 
 José Luis Manzanares Rivera es un investigador mexicano especializado en el análisis de datos. Es doctor en ciencias económicas por la Universidad Autónoma de Baja California y colabora en El Colegio de la Frontera Norte como investigador titular en el Departamento de Estudios Urbanos y del Medio Ambiente.
 
