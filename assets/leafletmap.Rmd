@@ -1,0 +1,1118 @@
+---
+title: " "
+author: ""
+date: "8/4/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,message = FALSE, warning = FALSE)
+```
+
+```{r,echo = FALSE}
+library(dygraphs)
+library(broom)
+library(RColorBrewer)
+library(tidyverse)
+library(sf)
+library(leaflet)
+library(mapview)
+library(leafem)
+library(RCurl)
+library(lubridate)
+library(hrbrthemes)
+library(tidyselect)
+library(janitor)
+library(WDI)
+library(wbstats)
+library(ggpubr)
+library(foreign)
+library(plotly)
+```
+
+## A bird's  eye on SARS-CoV-2  cases arround the world. An early world image as of April 2020.
+
+<p style="font-family: times, serif; font-size:8pt; font-style:italic;color:brown">
+Pin height represents magnitud of confirmed  cases by country,  . 
+</p>
+
+```{r, echo=FALSE,fig.height = 7, fig.width = 8}
+
+library("threejs")
+library("maps")
+
+world<-readRDS("world2.rds")%>%
+select(Country.Region, confirmed, Long,Lat)%>%
+filter(confirmed>=0)%>%
+mutate(median=median(confirmed), cstd=confirmed/median)%>%
+arrange(desc(confirmed))%>%
+mutate(Country.Region=str_trim(Country.Region))%>%
+filter(Country.Region!="US")
+
+value  <- 100 * world$cstd / max(world$cstd)
+
+
+col <- rainbow(100,start=6.8/8,end=8/8)
+col <- col[floor(length(col)*(100-value)/100)+1]
+
+globejs(lat=world$Lat, long=world$Long, value=value, color=col,
+    atmosphere=TRUE)
+
+```
+
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on offical WHO data compiled by Chennai, Tamil Nadu, India. Novel Corona Virus 2019. 
+</p>
+
+
+<p style="font-family: times, serif; font-size:9pt; font-style:italic;font-style:italic;color:brown">
+The US data represents 32.2% of the total world's cases, (April 25th, 2020)  so it was removed from representation, to avoid overfitting. </p>
+ 
+
+
+<p style="color:brown; font-size:14pt"> **The Latin American context**</p>
+
+```{r, echo=FALSE, fig.height = 7, fig.width = 8}
+
+### America Latina
+
+latina<-readRDS("latina_countries.rds")%>%
+  select(-geometry)%>%
+rename(country=Country.Region)%>%
+  filter(!is.na(confirmed))
+
+# Order data
+tmp <- latina %>%
+  filter(!is.na(confirmed)) %>%
+  arrange(desc(confirmed)) %>%
+  mutate(country=factor(country, country))
+
+# Set a number of 'empty bar'
+empty_bar=10
+
+# Add lines to the initial tmpset
+to_add = matrix(NA, empty_bar, ncol(tmp))
+colnames(to_add) = colnames(tmp)
+tmp=rbind(tmp, to_add)
+tmp$id=seq(1, nrow(tmp))
+
+# Get the name and the y position of each label
+label_tmp=tmp
+number_of_bar=nrow(label_tmp)
+angle= 90 - 360 * (label_tmp$id-0.5) /number_of_bar     # I substract 0.5 because the letter must have the angle of the center of the bars. Not extreme right(1) or extreme left (0)
+label_tmp$hjust<-ifelse( angle < -90, 1, 0)
+label_tmp$angle<-ifelse(angle < -90, angle+180, angle)
+label_tmp$country <- gsub("Saint Vincent and the Grenadines", "St.Vincent", label_tmp$country)
+label_tmp$country <- gsub("Trinidad and Tobago", "Trinidad&T", label_tmp$country)
+label_tmp$country <- gsub("Saint Kitts and Nevis", "St.Kitts", label_tmp$country)
+label_tmp$country <- gsub("Trinidad and Tobago", "Trinidad&T", label_tmp$country)
+label_tmp$country <- gsub("Dominican Republic", "DominicanR", label_tmp$country)
+label_tmp$country <- gsub("Antigua and Barbuda", "Antigua", label_tmp$country)
+label_tmp$country <- paste(label_tmp$country, " (", label_tmp$confirmed,")", sep="")
+
+# Make the plot
+
+ggplot(tmp, aes(x=as.factor(id), y=confirmed)) +       # Note that id is a factor. If x is numeric, there is some space between the first bar
+  geom_bar(stat="identity", fill=alpha("deepskyblue4", 0.9)) +
+  ylim(-180000,300000) +
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    panel.grid = element_blank(),
+    ) +
+  coord_polar(start = 0) + 
+geom_text(data=label_tmp, aes(x=id, y=confirmed, label=country ), color="indianred4", fontface="bold",alpha=0.6, size=2.5, angle= label_tmp$angle, hjust=label_tmp$hjust, inherit.aes = FALSE ) 
+
+```
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on  Dirección General de Epidemiología, oficial Mexican Government data. 
+</p>
+
+**Brazil** is the more affected country in the Latin American region by April 10th.  Triplicating the number of cases that its predecessor, **Perú** reports. What kind of measures are these countries implementing? Are this countries appliying the same preventive controls? such as social distancing, border closings, mobility restrictions? The different control approaches may provide clues to better understand the virus spread rate. 
+
+## México
+##### Casos confirmados
+
+```{r, echo=FALSE, fig.height = 7, fig.width = 9.4}
+
+da<-read.csv("dbmx.csv")%>%select(X:confirmed)%>%
+rename(id=X)
+
+
+# Order data
+
+da<- da %>%
+  filter(!is.na(confirmed)) %>%
+  arrange(desc(confirmed)) %>%
+  mutate(State=factor(State, State))
+
+border_n<-data.frame("fn"=c("Nuevo León","Coahuila", "Tamaulipas", "Baja California", "Chihuahua", "Sonora", "Baja California Sur"))
+
+border_s<-data.frame("fs"=c("Campeche", "Chiapas", "Quintana Roo", "Tabasco", "Yucatán"))
+
+da<-mutate(da, Region=ifelse(State%in%border_n$fn,"Northern B",ifelse(State%in%border_s$fs,"Southern B","No border")))%>%mutate(Region=as.factor(Region))
+
+empty_bar <- 3
+to_add <- data.frame( matrix(NA, empty_bar*nlevels(da$Region), ncol(da)) )
+colnames(to_add) <- colnames(da)
+to_add$Region <- rep(levels(da$Region), each=empty_bar)
+da <- rbind(da, to_add)
+da <- da %>% arrange(Region)
+da$id <- seq(1, nrow(da))
+
+label_data <- da
+number_of_bar <- nrow(label_data)
+angle <-  90 - 360 * (label_data$id-0.5) /number_of_bar
+label_data$hjust<-ifelse( angle < -90, 1, 0)
+label_data$angle<-ifelse(angle < -90, angle+180, angle)
+label_data$State <- gsub("San Luis Potosí", "SLP", label_data$State)
+label_data$State <- gsub("Quintana Roo", "QR", label_data$State)
+label_data$State <- gsub("Baja California", "BC", label_data$State)
+label_data$State <- gsub("Nuevo León", "NL", label_data$State)
+label_data$State <- gsub("Zacatecas", "Zac", label_data$State)
+label_data$State <- paste(label_data$State, " (", label_data$confirmed,")", sep="")
+
+da = da %>% arrange(Region, confirmed)
+
+p1 <- ggplot(da, aes(x=as.factor(id), y=confirmed,  fill=Region)) + 
+geom_bar(stat="identity") +
+ ylim(-800000,1500000) +
+   theme_minimal() +
+  theme(axis.text = element_blank(),
+    axis.title = element_blank(),
+    panel.grid = element_blank()) +
+coord_polar() + 
+  geom_text(data=label_data, aes(x=id, y=confirmed+5, label=State, hjust=hjust), color="indianred4", alpha=0.8, size=2.3, angle= label_data$angle, inherit.aes = FALSE )
+
+p1
+
+```
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on  Dirección General de Epidemiología, oficial Mexican Government data. 
+</p>
+
+
+### Sonora
+##### Casos confirmados. Early Stage. (May 20th 2020).
+```{r, echo=FALSE, fig.height = 7, fig.width = 9.4}
+
+
+####
+## Sonora Plot.
+son<-readRDS("sonora_plot.rds")%>%
+  rename(municipio=Municipio)
+
+# Order data
+
+tmp <- son %>%
+  filter(!is.na(confirmed)) %>%
+  arrange(desc(confirmed)) %>%
+  mutate(municipio=factor(municipio, municipio))
+
+# Set a number of 'empty bar'
+empty_bar=5
+
+# Add lines to the initial tmpset
+to_add = matrix(NA, empty_bar, ncol(tmp))
+colnames(to_add) = colnames(tmp)
+tmp=rbind(tmp, to_add)
+tmp$id=seq(1, nrow(tmp))
+
+# Get the name and the y position of each label
+label_tmp=tmp
+number_of_bar=nrow(label_tmp)
+angle= 90 - 360 * (label_tmp$id-0.5) /number_of_bar     # I substract 0.5 because the letter must have the angle of the center of the bars. Not extreme right(1) or extreme left (0)
+label_tmp$hjust<-ifelse( angle < -90, 1, 0)
+label_tmp$angle<-ifelse(angle < -90, angle+180, angle)
+label_tmp$municipio <- paste(label_tmp$municipio, " (", label_tmp$confirmed,")", sep="")
+
+# Make the plot
+
+p2<-ggplot(tmp, aes(x=as.factor(id), y=confirmed)) +       # Note that id is a factor. If x is numeric, there is some space between the first bar
+  geom_bar(stat="identity", fill=alpha("red", 0.5)) +
+  ylim(-650,980) +
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    panel.grid = element_blank(),
+    ) +
+  coord_polar(start = 0) + 
+geom_text(data=label_tmp, aes(x=id, y=confirmed, label=municipio ), color="indianred4", fontface="bold",alpha=0.8, size=2.5, angle= label_tmp$angle, hjust=label_tmp$hjust, inherit.aes = FALSE )
+p2
+
+```
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on  Dirección General de Epidemiología, oficial Mexican Government data and Secretaria de Salud Sonora confirmed cases as of May 20th 2020. 
+</p>
+
+
+While, absolute measures show important patterns, they only provide  one side of the contagion process. We need relative indicators to control for population size in each area.  
+
+### Are there any significant differences between patient´s age distribution between states?   
+```{r, echo= FALSE, fig.height = 5, fig.width = 8.5}
+library(plotly)
+## Source: https://www.gob.mx/salud/documentos/coronavirus-covid-19-comunicado-tecnico-diario-238449
+
+agedf<-readRDS("agedf.rds")
+
+
+dp<-ggplot(agedf, aes(x=edad, fill=sex))+
+geom_density(alpha=.2)+  
+labs(color="Sex")+
+xlab("Patient age  (years)")+
+ylab("Density  f(y)")+
+theme_classic()+
+scale_fill_discrete(labels=c("Female", "Male"))+
+geom_vline(xintercept =mean(agedf$edad), linetype="dotted", color="red")+
+annotate("text", x=32, y=.005, size=2,label="Mean patient age")+ theme(legend.title=element_blank())
+
+ggplotly(dp)
+```
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on  Dirección General de Epidemiología, oficial Mexican Government data. 
+</p>
+
+
+The patient mean age is 41 years old, although  no significant diferences across gender are found at this moment 2020-04-21, with an average age of  41 years for  the Female population and   42 for Males.
+
+
+We find that more Males than females are being infected. 58% vs 42% with 4 023 Females  while  5 478 Males being reported since the first case was documented in the country, February  the 28th, 2020.
+
+Given the highly infectious nature of the virus and the  labor market dynamics, a social determinant linked to a greater  mobility for males, provides a research area that requires a formal empirical validation.   
+
+
+
+### Age Distribution for covid19 deaths in Mexico.
+```{r, echo= FALSE}
+
+open<-readRDS("open.rds")
+
+def<-filter(open, resultado==1)%>%
+  filter(fecha_def!="9999-99-99")%>%
+  select(sexo, edad)
+def$sexo[def$sexo == "1"] <- "Female"
+def$sexo[def$sexo == "2"] <- "Male"  
+def<-mutate(def,sexo=as.factor(sexo))
+
+fmean<-filter(def, sexo=="Female")%>%
+  mutate(varmean=mean(edad))%>%
+   summarise(mean=mean(varmean))
+
+mmean<-filter(def, sexo=="Male")%>%
+  mutate(varmean=mean(edad))%>%
+   summarise(varmean=mean(varmean))
+
+  
+p<-ggplot(def, aes(x=edad, fill=sexo))+
+geom_density(alpha=.2)+  
+labs(color="Sex")+
+xlab("Person age  (years)")+
+ylab("Density  f(y)")+
+theme_classic()+
+scale_fill_manual(values = c("brown","blue4"))+
+geom_vline(xintercept = fmean$mean, linetype="dotted", color="purple")+
+geom_vline(xintercept = mmean$varmean, linetype="dotted", color="blue")+
+annotate("text", x=44, y=.005, size=3,label="Mean person age")+ theme(legend.title=element_blank())
+
+
+ggplotly(p)
+```
+
+
+
+```{r, echo=FALSE, fig.height = 7, fig.width = 9.4}
+## Load data and state  labels.
+
+
+cat_e<-read.csv("C:/Users/josel/Desktop/on/I/data/cat_entidad.csv")%>%
+rename(state=X.U.FEFF.EDO,Estado=DESCRIP)%>%
+mutate(state=sprintf("%02d",state))
+
+agedf<-readRDS("agedf.rds")%>%
+mutate(state=sprintf("%02d",state))%>%
+left_join(cat_e)%>%
+  select(-state)%>%
+rename(state=Estado)
+  
+
+
+mtt<-agedf%>%
+nest(-state)
+
+
+m<-mutate(mtt,model=purrr::map(data,~t.test(.$edad)), tidied = purrr::map(model, tidy))%>%
+unnest(tidied)
+
+
+m<-mutate(m,state=fct_reorder(state,estimate))
+  ggplot(m,aes(estimate,state,color=estimate))+
+  geom_point()+
+  geom_errorbarh(aes(xmin=conf.low, xmax=conf.high))+
+  theme_light()+
+  theme(legend.position = "none")+
+  scale_colour_viridis_c(option = "plasma")+
+  labs(title="Average COVID19 patient age across states", subtitle = "t-test estimates and CI for age reported", x="Age (years)")
+
+```
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on  Dirección General de Epidemiología, oficial Mexican Government data. 
+</p>
+
+
+The **t test estimation** identifies specific average patient age across states.  Althought not all states exhibit a statistical diffence, we can observe an important fact, covid19 is mainly affecting productive age population in a range from 38 years old to 53. The spread of the CI's  indicates impacts in an important share of young population in some states, including Aguascalientes, San Luis Potosí, and Baja California Sur.   
+
+
+
+
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on  Dirección General de Epidemiología, official Mexican Government data. 
+</p>
+
+
+
+## Is the Covid19 growth curve flattening yet? Evidence from México. 
+```{r, echo=FALSE}
+library(dygraphs)
+library(xts)
+library(htmltools)
+
+
+
+
+casosdate <- read.csv(url("https://raw.githubusercontent.com/carranco-sga/Mexico-COVID-19/master/Mexico_COVID19_CTD.csv"))
+
+ddate<-casosdate %>% select(Fecha,contains('_D'))%>%
+  clean_names()%>%
+  gather(state,deaths,agu_d:zac_d)%>%
+  mutate(state=sub('_d$', '' ,state))
+
+
+c<-casosdate%>%select(-contains('_'))
+c<-clean_names(c)
+c<-select(c, -c(susp,pos,recovered,deceased))
+c<-gather(c, state,cases,agu:zac)
+
+c<-left_join(ddate,c)
+
+c$fecha <- as.Date(c$fecha)
+
+c$state[c$state == "cmx"] <- "CDMX"
+c$state[c$state == "mex"] <- "México"
+c$state[c$state == "slp"] <- "San Luis Potosí"
+c$state[c$state == "chp"] <- "Chiapas"
+c$state[c$state == "chh"] <- "Chihuahua"
+c$state[c$state == "gua"] <- "Guanajuato"
+c$state[c$state == "gro"] <- "Guerrero"
+c$state[c$state == "agu"] <- "Aguascalientes"
+c$state[c$state == "bcn"] <- "Baja California"
+c$state[c$state == "bcs"] <- "Baja California Sur"
+c$state[c$state == "cam"] <- "Campeche"
+c$state[c$state == "coa"] <- "Coahuila"
+c$state[c$state == "col"] <- "Colima"
+c$state[c$state == "dur"] <- "Durango"
+c$state[c$state == "hid"] <- "Hidalgo"
+c$state[c$state == "jal"] <- "Jalisco"
+c$state[c$state == "mic"] <- "Michoacán"
+c$state[c$state == "mor"] <- "Morelos"
+c$state[c$state == "nay"] <- "Nayarit"
+c$state[c$state == "nle"] <- "Nuevo León"
+c$state[c$state == "oax"] <- "Oaxaca"
+c$state[c$state == "pue"] <- "Puebla"
+c$state[c$state == "que"] <- "Querétaro"
+c$state[c$state == "roo"] <- "Quintana Roo"
+c$state[c$state == "sin"] <- "Sinaloa"
+c$state[c$state == "son"] <- "Sonora"
+c$state[c$state == "tam"] <- "Tamaulipas"
+c$state[c$state == "tab"] <- "Tabasco"
+c$state[c$state == "tla"] <- "Tlaxcala"
+c$state[c$state == "ver"] <- "Veracruz"
+c$state[c$state == "yuc"] <- "Yucatán"
+c$state[c$state == "zac"] <- "Zacatecas"
+
+
+letalmx<-mutate(c, letal=round(deaths/cases*100,2))
+
+mxletal<-group_by(c,fecha)%>%
+  filter(cases>=1)%>%
+  summarize(ctotal=sum(cases), dtotal=sum(deaths))
+
+mxletal<-mutate(mxletal,lmx=round(dtotal/ctotal*100,2))
+
+mxrate<-mutate(mxletal, logs=log(ctotal))
+
+basedate<-1.098612  
+
+
+tasa_a<-mutate(mxrate,rate=(logs-basedate)*100)%>%
+  rename(Cases=ctotal, Cumulative.growth.rate=rate, lethality=lmx)%>%
+  select(-logs)
+
+## El plot 
+
+dates<-select(tasa_a,fecha)  
+tasa_a<-select(tasa_a,-fecha)
+tasa_b<-select(tasa_a,Cases, dtotal)%>%rename(deaths=dtotal)
+tasa_a<-select(tasa_a,lethality, Cumulative.growth.rate)
+
+tasa_b <- xts(x = tasa_b,order.by = dates$fecha)
+tasa_a <- xts(x = tasa_a,order.by = dates$fecha)
+
+dy_graph <- list(
+dygraph(tasa_a, group= " ", main = "Growth rate and Lethality")%>% 
+dyRangeSelector()%>%
+dyHighlight(highlightCircleSize = 3, 
+highlightSeriesBackgroundAlpha = 0.2,
+hideOnMouseOut = FALSE)%>%
+  dySeries("lethality", axis = 'y2')%>%
+  dyAxis("y", label = "Growth rate (%)")%>% 
+  dyAxis("y2", label = "Lethality (%)", independentTicks = TRUE)%>%
+  dyLegend(width = 600)%>%
+  dyEvent("2020-04-12", "mandatory Lockdown Sonora", labelLoc = "bottom") %>%
+  dyEvent("2020-03-24", "Stage II: community transmission", labelLoc = "bottom", color = "tomato")%>%
+  dyEvent("2020-03-30", "Health Emergency declaration", labelLoc = "bottom", color = "red")%>%
+  dyEvent("2020-03-18", "100th case threshold", labelLoc = "bottom", color = "orange")
+,
+
+dygraph(tasa_b,  group= " ",main = "Positive cases, confirmed death")%>% 
+  dyRangeSelector()%>%
+    dyHighlight(highlightCircleSize = 3, 
+              highlightSeriesBackgroundAlpha = 0.2,
+              hideOnMouseOut = FALSE)%>%
+  dySeries("deaths", axis = 'y2')%>%
+  dyAxis("y", label = "Positive Cases")%>% 
+  dyAxis("y2", label = "Deaths", independentTicks = TRUE)%>%
+  dyLegend(width = 600))
+
+htmltools::browsable(htmltools::tagList(dy_graph))
+
+```
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on  Dirección General de Epidemiología, oficial Mexican Government data. 
+</p>
+
+Both lethality and growth rates from the 100th case threshold depic the evolution of the health emergency: The evidence for Mexico indicates that the emergency is taking a high toll at the country level. Although every state is been affected rather differently.
+
+Taking a look at daily growth rates indicate a rather less critic  scenario for the country, with signs of a decreasing trend, that already reached it's peak  at March 13th 2020. Update note as of February 10th 2022: However we now Know that there were several waves still coming. Those early figures  were only the beginning of a long public health treath, that we are still figuring out two years later in 2022.
+
+
+## Daily growth rates for covid19 cases reported in Mexico.
+
+```{r, echo=FALSE, fig.height = 7, fig.width = 9.4}
+casosdate <- read.csv(url("https://raw.githubusercontent.com/carranco-sga/Mexico-COVID-19/master/Mexico_COVID19_CTD.csv"))
+
+
+
+ddate<-casosdate %>% select(Fecha,contains('_D'))%>%
+  clean_names()%>%
+  gather(state,deaths,agu_d:zac_d)%>%
+  mutate(state=sub('_d$', '' ,state))
+
+
+c<-casosdate%>%select(-contains('_'))
+c<-clean_names(c)
+c<-select(c, -c(susp,pos,recovered,deceased))
+c<-gather(c, state,cases,agu:zac)
+
+c<-left_join(ddate,c)
+
+c$fecha <- as.Date(c$fecha)
+
+c$state[c$state == "cmx"] <- "CDMX"
+c$state[c$state == "mex"] <- "México"
+c$state[c$state == "slp"] <- "San Luis Potosí"
+c$state[c$state == "chp"] <- "Chiapas"
+c$state[c$state == "chh"] <- "Chihuahua"
+c$state[c$state == "gua"] <- "Guanajuato"
+c$state[c$state == "gro"] <- "Guerrero"
+c$state[c$state == "agu"] <- "Aguascalientes"
+c$state[c$state == "bcn"] <- "Baja California"
+c$state[c$state == "bcs"] <- "Baja California Sur"
+c$state[c$state == "cam"] <- "Campeche"
+c$state[c$state == "coa"] <- "Coahuila"
+c$state[c$state == "col"] <- "Colima"
+c$state[c$state == "dur"] <- "Durango"
+c$state[c$state == "hid"] <- "Hidalgo"
+c$state[c$state == "jal"] <- "Jalisco"
+c$state[c$state == "mic"] <- "Michoacán"
+c$state[c$state == "mor"] <- "Morelos"
+c$state[c$state == "nay"] <- "Nayarit"
+c$state[c$state == "nle"] <- "Nuevo León"
+c$state[c$state == "oax"] <- "Oaxaca"
+c$state[c$state == "pue"] <- "Puebla"
+c$state[c$state == "que"] <- "Querétaro"
+c$state[c$state == "roo"] <- "Quintana Roo"
+c$state[c$state == "sin"] <- "Sinaloa"
+c$state[c$state == "son"] <- "Sonora"
+c$state[c$state == "tam"] <- "Tamaulipas"
+c$state[c$state == "tab"] <- "Tabasco"
+c$state[c$state == "tla"] <- "Tlaxcala"
+c$state[c$state == "ver"] <- "Veracruz"
+c$state[c$state == "yuc"] <- "Yucatán"
+c$state[c$state == "zac"] <- "Zacatecas"
+
+
+
+c<-group_by(c,fecha)%>%
+  filter(cases>=1)%>%
+  summarize(Cases=sum(cases))
+
+
+c.ts<-ts(c$Cases)
+rate<-as.data.frame(diff(log(c.ts)))%>%rename(gr=x)
+cero <- data.frame(gr=0)
+rate<-rbind(cero,rate)
+
+m<-mutate(rate,meangw=mean(gr))
+
+dates<-select(c,fecha)  
+rate <- xts(x = rate,order.by = dates$fecha)
+
+dygraph(rate,  main = "Daily Growth rate")%>% 
+  dyRangeSelector()%>%
+  dyHighlight(highlightCircleSize = 3, 
+              highlightSeriesBackgroundAlpha = 0.2,
+              hideOnMouseOut = FALSE)%>% 
+   dyAxis("y", label = "Daily growth rate (%)")%>%
+  dyEvent("2020-03-30", "Health Emergency declaration", labelLoc = "top", color = "purple")%>%
+  dyEvent("2020-03-13", "Max groth rate", labelLoc = "top", color = "tomato")%>%
+  dyLimit(mean(rate), color = "red",label = "Average",labelLoc = "right")%>%
+  dyLegend( width = 400)
+
+
+```
+
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on Dirección General de Epidemiología, oficial Mexican Government data.
+</p>
+
+The pattern suggests a slowing trend with an average daily growth rate of 16.1%  considering the 46 days since the first case reported in the country. In addition, we can see an important lag in the public health authority’s reaction with a health emergency declaration made 17 days after the country’s covid19 cases reached its first peak daily growth rate.
+
+
+### What can be learned from Lethality rates at the state level?
+
+```{r, echo =FALSE,fig.height = 7, fig.width = 9.4}
+dbmx<-read.csv("dbmx.csv")
+## Letalidad bar plot.
+letal<-mutate(dbmx, letal=round(deaths/confirmed*100,2), meanlet=mean(letal), zletal=round(letal-meanlet))%>%
+mutate(State=fct_reorder(State,zletal), type=as.factor(ifelse(zletal>=0,1,0)))  
+
+
+ggplot(letal, aes(State, zletal, fill = type))+ 
+  geom_col()+  
+  coord_flip()+
+  theme_minimal()+
+labs(fill="Lethality")+
+theme(legend.justification=c(1,0), legend.position=c(.9,.4))+
+ylab("Lethality-average (death/confirmed (%))")+
+annotate("text", x="Tabasco", y=5, size=2,label="Mean lethality rate 8.35%")+
+scale_fill_manual(values=c("steelblue4","firebrick"), labels=c("Below average","Above average" ))
+
+
+```
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on Dirección General de Epidemiología, oficial Mexican Government data. 
+</p>
+
+
+
+```{r,echo = FALSE} 
+library(xts)
+casosdate <- read.csv(url("https://raw.githubusercontent.com/carranco-sga/Mexico-COVID-19/master/Mexico_COVID19_CTD.csv"))
+
+ddate<-casosdate %>% select(contains('_D'))
+
+c<-casosdate%>%select(-contains('_'))
+c<-clean_names(c)
+c<-select(c, -c(susp,pos,recovered,deceased))
+
+c<-rename(c,NuevoLeón= nle, Chihuahua=chh, Coahuila=coa, BajaCalifornia= bcn, Sonora=son, Tamaulipas=tam) 
+c<-gather(c, state,cases,agu:zac)
+c$fecha <- as.Date(c$fecha)
+
+fn<-data.frame(fn=c("NuevoLeón", "Chihuahua", "Coahuila", "BajaCalifornia", "Sonora", "Tamaulipas"))
+
+c<-mutate(c,fn=ifelse(state%in%fn$fn,1,0))
+
+fnstates<-filter(c,fn==1)%>%
+  select(-fn)
+widefn<-spread(fnstates, state, cases)
+dates<-select(widefn,fecha)  
+widefn<-select(widefn,-fecha)
+widefn <- xts(x = widefn,order.by = dates$fecha)
+```
+
+
+### Mexico´s age and sex adjusted Rates by State per 100 000 pop.
+
+**CDMX** exhibits the highests rate, which occurs in Males. While the lowest is found in females from **Chiapas**.
+
+
+
+```{r, echo=FALSE,fig.height = 7, fig.width = 9.4}
+
+## Plot    only.
+
+tasa<-readRDS("covid19_tasa_morb.rds")%>%
+  mutate(State=as.factor(State),Sexo=as.factor(Sexo), Sexo=ifelse(Sexo==2,"Males", "Females"))
+## La tasa de incidencia promedio considera como población objetivo el universo de personas con prueba realizada  (62334 al 25 de Abril).   Y como incidencia la población con  resultado  positivo. La tasa promedio en el pais es de 5 x 100 mil hab. La ma es 44 en Hombres de CDMX la mínima es 7 y  ocurre en mujeres de Chiapas. 
+## A Color plot
+
+tasa<-mutate(tasa,State=fct_reorder(State,Tasa))
+
+pal <- c("deeppink3", "deepskyblue2")
+
+plt<-plot_ly(tasa, x=~State, y=~Tasa,color=~Sexo,  colors= pal, size=~Tasa,  type = 'scatter')
+plt <- plt %>% layout(xaxis =list(title = 'State'), yaxis =list(title = 'I Rate per (100 000 pop.)'))%>%
+layout(shapes=list(type='line', x0=0, x1=32, y0=quantile(tasa$Tasa, .75), y1=quantile(tasa$Tasa, .75), line=list(dash='dot', width=.5,color="brown")))
+       
+plt
+
+
+ggsave("tasa_morb.tiff", width = 23, height = 17, units = "cm",dpi=300)
+  
+```
+
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+Source: Own estimation based on Mexican Government official Open data.   
+</p>
+
+It is found that **CDMX** exhibits the highest rate and is the male population that is been  more affected.  
+
+Note: Estimates considers reported testing results as the target population for suspected COVID19 patients. 
+The rate takes into account  the proportion of positive cases to the total  target population. Rates integrate the  age and sex structure for standard population based on CONAPO 2020 official population estimates. 
+
+
+
+
+##  Outbreak curves: Mexico's Northern Border States.
+
+```{r,echo = FALSE,fig.height = 7, fig.width = 9.4}
+
+##  Good data  Sources> https://covidatos.mx/
+
+dygraph(widefn,main = "Confirmed positive cases")%>% 
+  dyRangeSelector()%>%
+    dyHighlight(highlightCircleSize = 3, 
+              highlightSeriesBackgroundAlpha = 0.2,
+              hideOnMouseOut = FALSE)%>%
+  dyLegend( width = 600)
+```
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on oficial Mexican Government data Dirección General de Epidemiología. </p>
+
+
+
+The covid19 confirmed cases path for the border states is showing a clear indication of different results of local containment measures for the spread of the virus. While, during the initial outbreak, **Nuevo León** (a state that host Monterrey, the third largest Metropolitan area in the country) had been the main focus of contagion  at the border, the pattern  dramatically changed by April 5th, when **Baja California** take off.  
+
+What kind of measures  worked initially in Nuevo León,  a state that apparently achieved an early **flatten curve**,  what lessons can be learned from this state´s public health control efforts. And more importantly, what factors  positioned  Baja California as a rapid growth area. Update: As of  February 202,2 we have evidence that the initial picture was only part of series of subsequent "waves" in which Nuevo León would continue to experiment a health crisis.  
+
+
+## The 100th cases threshold.
+
+<p style="color:brown"> Northern border states</p>  
+
+```{r,echo = FALSE, fig.height = 7, fig.width = 9.4}
+fnstates<-filter(fnstates, fecha> "2020-03-01")
+ggplot(fnstates, aes(fecha, cases)) +
+geom_area(fill="orange", alpha=0.5) +
+geom_line(color="red") +
+ylab("Cumulative cases per day)") +
+theme_bw()+
+facet_wrap(~state,nrow=2)+
+geom_hline(yintercept=100,linetype="dashed")+
+  xlab("Date") 
+
+```
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on Dirección General de Epidemiología, oficial Mexican Government data. 
+</p>
+
+
+**Baja California** was the first border state to reach the **100th case threshold**, which occurred on April 06 2020.  
+Two days latter, the number of cases has doubled to 225.
+
+
+
+### Spatial distribution for confirmed cases at the Municipal scales. 
+<p style="color:brown"> **Interactive Map: Activate the US-Mexico Border, Sonora, Arizona, or World layer below, to display data accordingly**</p>
+```{r,echo = FALSE,fig.height = 8, fig.width = 10}
+
+## Loads  from  updates in open_dababase.Rmd file
+son<-readRDS("son.rds")  ## From up ate daily report Sonora conf press
+mex<-readRDS("mx.rds")   ## from Mx  Open Data daily.
+World<-readRDS("World.rds")
+USMX_Border<-readRDS("border_counties.rds")
+arizona<-readRDS("arizona.rds") %>%
+rename(confirmed=cases)  
+mx_border<-readRDS("border_mx.rds")
+
+
+USA<-readRDS("USA.rds")
+
+
+mapviewOptions(vector.palette=colorRampPalette(c("red","orange","blue")))
+
+
+a<-mapview(World, map.types =  "OpenStreetMap.DE",zcol = "confirmed",cex="confirmed", layer.name= "World")+
+mapview(mex, zcol = "confirmed",cex="confirmed", layer.name="México")+
+mapview(son, zcol = "confirmed",cex="confirmed", layer.name="Sonora")+
+mapview(arizona, zcol = "confirmed",cex="confirmed", layer.name="Arizona")+
+mapview(USMX_Border, zcol = "confirmed",cex="confirmed", layer.name="US Border Counties")+
+mapview(mx_border, zcol = "confirmed",cex="confirmed", layer.name="MX Border Municipalities")
+leafem::addMouseCoordinates(a)%>%
+setView(zoom = 6.35, -110.7026625, 29.2766572)
+
+```
+
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on datos abiertos.Dirección General de Epidemiología, oficial Mexican Government data. World and USA data compiled by Chennai, Tamil Nadu, India. Novel Corona Virus 2019 Dataset.Note: Daily Updated data. 
+</p>
+
+<p style="font-family: times, serif; font-size:7pt; font-style:italic">
+Data source Warning: There are important differences in the number of cases reported by health authorities, particularly between the state level and the federal Goverment sources. The latter providing lower figures. See  for example [Sonora](https://www.facebook.com/secretaria.saludsonora/videos/1309163162613295/) state, which is reportig 88 cases for 13/04/2020, while the [oficial](https://www.gob.mx/salud/documentos/coronavirus-covid-19-comunicado-tecnico-diario-238449) data base reports 72 cases for the same date. </p>
+ 
+
+
+
+##  US MX Border States: Relationship between confirmed cases and deaths reported.
+####  Mexico
+```{r, echo =FALSE, fig.height = 7, fig.width = 9.4}
+
+### Loading data  sets  For Mexico.
+
+## Data frame with Morbidity rates. 
+
+tasa<-readRDS("covid19_tasa_morb.rds")%>%
+  mutate(State=as.factor(State),Sexo=as.factor(Sexo), Sexo=ifelse(Sexo==2,"Males", "Females"))%>%
+group_by(State)%>%
+summarize(T=sum(Tasa))
+
+## Base con casos y defunciones por estado   , se actualiza daily desde Updates 
+
+cyd_mx<-read.csv("dbmx.csv")%>%
+  select(State,deaths, confirmed)
+
+base_tcd<-left_join(tasa,cyd_mx )
+
+fn<-data.frame(frontera=c("Nuevo León", "Chihuahua", "Coahuila", "Baja California", "Sonora", "Tamaulipas"))
+
+base<-mutate(base_tcd,USMXBorder=ifelse(State%in%fn$frontera,1,0))%>%
+mutate(USMXBorder=as.factor(USMXBorder), USMXBorder=ifelse(USMXBorder==1,"Border","No"))%>%
+mutate(log.deaths=log(deaths), log.confirmed=log(confirmed))  
+
+fit <- lm(log.deaths ~ log.confirmed, data = base)
+
+# cor.test(base_tcd$deaths, base_tcd$confirmed, method=c("pearson", "kendall", "spearman"))
+
+
+pal <- c("red", "gray")
+lmplt<- plot_ly()%>%
+add_trace(data =  base, x = ~log.confirmed, y = ~log.deaths, mode = "markers",size=~T,color = ~USMXBorder, colors=pal, text = ~paste("State", State, "Deaths", deaths, 
+"Confirmed", confirmed,
+"IRate",T)) %>% 
+add_trace(data = base, x = ~log.confirmed, y = fitted(fit), name = "Linear Model", mode = "lines")
+lmplt<-add_annotations(lmplt, x=4, y=5, text = "Coef=0.97", showarrow = FALSE)  
+lmplt
+
+## Un incremento de 1% en casos confirmados se traduce en un incremento de .9% en defunciones. La relación es marginalmente  inelástica, El coeficiente tendría que reducirse. INdependientemente de este valor vemos enque en USA este coeficiente es inferior. Lo que habla de un sistema de salud más efectivo.  
+
+```
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on oficial Mexican Government Open data (OD).
+</p>
+
+
+####  US 
+```{r, echo=FALSE, fig.height = 7, fig.width = 9.4}
+
+### USA data
+b<-data.frame(border=c("TX", "AZ", "NM", "CA")) 
+
+usa_cyd<-readRDS("usa_cyd.rds")%>%
+   select(State, confirmed , deaths)%>%
+ filter(!is.na(deaths))%>%
+    group_by(State)%>%
+  summarize(confirmed=sum(confirmed), deaths=sum(deaths))%>%
+  mutate(USMXBorder=as.factor(ifelse(State%in%b$border,"USMXBorder","No Border")), log.deaths=log(deaths),log.confirmed=log(confirmed) )
+
+fitusa <- lm(log.deaths ~ log.confirmed, data = usa_cyd)
+
+
+## Para los datos de USA la relación es elástica un ncremento de 1% en casos, se relaciona con un incremento (más que proporcional) de 1.17%. Veamos que sucede en los estados fronterizos particularmente.  
+
+corr<-cor.test(usa_cyd$deaths, usa_cyd$confirmed, method=c("pearson", "kendall", "spearman"))
+
+pal <- c("orange","blue")
+p<-plot_ly()%>%
+add_trace(data =  usa_cyd, x = ~log.confirmed, y = ~log.deaths, mode = "markers",size=~confirmed,color = ~USMXBorder, colors=pal, text = ~paste("State", State, "Deaths", deaths, 
+"Confirmed", confirmed)) %>% 
+add_trace(data = usa_cyd, x = ~log.confirmed, y = fitted(fitusa), name = "Linear Model", mode = "lines")  
+p<-add_annotations(p, x=8, y=8, text = "Coef=1.17", showarrow = FALSE)  
+p
+
+```
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: US data WHO offical data compiled by Chennai, Tamil Nadu, India. Novel Corona Virus 2019 Dataset.</p>
+
+
+
+
+## Information Accuracy
+
+The graph below determines differences in the number of cases reported by state in both official data bases. The accuracy gap is identified and classified as either under reporting or an over reporting state. 
+
+
+
+
+
+
+```{r,echo=FALSE, fig.height = 7, fig.width = 9.4}
+
+### SOURCE 1:  DATOS ABIERTOS:
+
+open<-read.csv("200418COVID19MEXICO.csv", encoding = "UTF-8")%>%
+  clean_names()
+
+
+pos<-filter(open, resultado==1)%>%
+  select(sexo, municipio_res,entidad_res,fecha_def)%>%
+  mutate(entidad_res=sprintf("%02d",entidad_res), municipio_res=sprintf("%03d",municipio_res),deaths=ifelse(fecha_def!="9999-99-99",1,0))%>%
+filter(municipio_res!=999)
+
+pos$geoid <- paste0(pos$entidad_res, pos$municipio_res)
+
+bystate<-group_by(pos,entidad_res, sexo)%>%
+  summarize(casos=n())%>%
+  spread(sexo,casos)%>%
+  rename(Female=2, Male=3)
+
+bystate[is.na(bystate)] <- 0
+
+bystate<-group_by(pos,entidad_res)%>%
+summarize(deaths=sum(deaths))%>%
+left_join(bystate)
+    
+bystate<-mutate(bystate,confirmed=Male+Female)
+## Casos registrados en 464 municipios eq  al   18% del territorio.   Hap COVID en uno de cada 5 municipios.
+geoedos<-read.csv("long_lat_states_mx.csv")%>%
+  filter(CAPITAL!="")%>%
+  distinct(ENTIDAD, .keep_all = TRUE)%>%
+  select(Xcord,Ycord,NUM_EDO,ENTIDAD)%>%
+  rename(entidad_res=NUM_EDO)%>%
+  mutate(entidad_res=sprintf("%02d",entidad_res))
+
+
+mxstates<-left_join(geoedos, bystate)%>%
+  filter(confirmed>=1)%>%
+  rename(Long=Xcord,Lat=Ycord)%>%
+  select(ENTIDAD,entidad_res,confirmed, Male, Female,deaths,Long, Lat)%>%
+  rename(State=ENTIDAD)%>%
+  mutate(State=as.character(State))
+
+  
+mxstates$State[mxstates$State== "COAHUILA DE ZARAGOZA"] <-"COAHUILA"
+mxstates$State[mxstates$State== "DISTRITO FEDERAL"] <- "CIUDAD DE MÉXICO"
+mxstates$State[mxstates$State== "MICHOACAN DE OCAMPO"] <-"MICHOACÁN"
+mxstates$State[mxstates$State== "MEXICO"]<-"MÉXICO"
+mxstates$State[mxstates$State== "QUERETARO DE ARTEAGA"] <-"QUERETARO"
+mxstates$State[mxstates$State== "VERACRUZ DE IGNACIO DE LA LLAVE"] <-"VERACRUZ"
+mxstates$State[mxstates$State== "YUCATAN"]<-"YUCATÁN"
+
+mxstates$State[mxstates$State== "SAN LUIS POTOSI"]<-"SAN LUIS POTOSÍ"
+mxstates$State[mxstates$State== "NUEVO LEON"]<-"NUEVO LEÓN"
+
+mexstates <- st_as_sf(mxstates, coords = c("Long", "Lat"),  crs=4326)
+
+### Source>  Comunicado Tecnico diario, nota es una alternativa a Datos abiertos 
+
+mexstates2<-select(mxstates,State,confirmed, Long,Lat)%>%
+  rename(state=State)
+
+mxct<-read.csv("c04182020.csv")%>%
+mutate(sex=as.character(sex))%>%
+group_by(state, sex)%>%
+summarize(cases=n())%>%
+spread(sex,cases)%>%
+rename(Female=2, Male=3)%>%
+mutate(cases=Female+Male)
+  
+### Source   desde el comunicado técnico diario 
+
+mxct<-left_join(mxct,mexstates2)%>%
+  rename(opendata=confirmed, confirmed=cases)%>%
+  mutate(difference=confirmed-opendata, accuracy=ifelse(difference>0,1,ifelse(difference<0,2,0)))
+  
+
+mxct <- st_as_sf(mxct, coords = c("Long", "Lat"),  crs=4326)
+saveRDS(mxct,"mxct.rds")	
+
+mxct<-mutate(mxct, accuracy=as.factor(accuracy), accuracy=ifelse(accuracy==1,"Under", ifelse(accuracy==2,'over', "accurate")))
+
+ ###  Plot  states by   difference  colored by    under over report/
+
+ggplot(mxct, aes(state, difference, fill=accuracy))+
+geom_col()+
+coord_flip()+
+theme_minimal()+
+xlab("State")+
+ylab("Accuracy gap in confirmed cases CT vs OD") +
+scale_fill_discrete(name="Report Type")
+
+#####
+
+acrate<-mxct%>%
+mutate(accuracy=as.factor(accuracy))%>%
+group_by(accuracy)%>%
+summarize(count=n())%>%
+mutate(p=count/sum(count))
+
+
+acu_cases<-mxct%>%
+mutate(accuracy=as.factor(accuracy))%>%
+group_by(accuracy)%>%
+summarize(count=sum(difference))%>%
+mutate(p=count/sum(count))
+
+## Who are the  under report 
+
+under<-mxct%>%
+filter(accuracy==1)
+
+over<-mxct%>%
+filter(accuracy==2)
+
+ok<-mxct%>%
+filter(accuracy==0)
+
+baseacu18<-data.frame(rate=c(acrate$p))
+write.csv(baseacu18,"b18.csv")
+
+```
+<p style="font-family: times, serif; font-size:8pt; font-style:italic">
+    Source: Own estimation based on oficial Mexican Government Open data (OD) and daily technical communication CT.
+</p>
+
+
+During the **referred period** we found that on average **29.16%** of the states in the country  contained under classified data. This differences accounted to **349** covir19 cases not reported in the (OD) official source. 
+
+Furthermore, there is evidence of even larger differences when we consider the state reports vs. the Federal government official reports (OD). This is particularly evident at US-MX border Municipalities. Considering for Example the Sonoran border Municipality of  San Luis rio Colorado, we found that the state is reporting  89 cases for April the 22nd, whereas the federal government via the official data mechanism designed  (ODB), reports just 51 cases, an under report by **42%**
+
+From April 18th the OD, became the only official data government source...
+
+### Review case: Sonora. 
+
+```{r, echo=FALSE }
+library(xts)
+
+son_ac<-readRDS("sonora_accuracy.rds")%>%
+  select(-deaths)%>%
+mutate(Percent=round(gap/cases_ssd*100, 2))%>%
+  rename(Federaldata=cases, Sonoradata=cases_ssd)
+
+dates<-select(son_ac,fecha)
+son_ac1<-select(son_ac, Federaldata, Sonoradata, gap, -fecha)
+son_ac1 <- xts(x = son_ac1,order.by = dates$fecha)
+
+son_ac2<-select(son_ac, gap, Percent, -fecha)
+son_ac2 <- xts(x = son_ac2,order.by = dates$fecha)
+
+
+dy_graph2 <- list(
+  
+dygraph(son_ac1, group= "a", main = "Sonora State data vs. Federal Government Offical OD")%>% 
+dyRangeSelector()%>%
+dyHighlight(highlightCircleSize = 3, 
+highlightSeriesBackgroundAlpha = 0.2,
+hideOnMouseOut = FALSE)%>%
+dySeries("Federaldata")%>%
+dySeries("gap", stepPlot = TRUE, fillGraph = TRUE, color = "red")%>%
+dyAxis("y", label = "cases Reported")%>% 
+dyLegend(width = 300)%>%
+dyEvent("2020-04-20", "El Financiero report", labelLoc = "bottom", color="purple")%>%
+dyEvent("2020-04-26", "Peak Gap", labelLoc = "top", color = "red")
+,
+
+dygraph(son_ac2,  group= "a", main = "Gap size: cases, %")%>% 
+dyRangeSelector()%>%
+dyHighlight(highlightCircleSize = 3, 
+highlightSeriesBackgroundAlpha = 0.2,
+hideOnMouseOut = FALSE)%>%
+dySeries("Percent", axis = 'y2')%>%
+dyAxis("y", label = "Gap (cases)")%>%
+dyAxis("y2", label = "(%)", independentTicks = TRUE)%>%  
+dyLegend(width = 300)%>%
+dyEvent("2020-04-20", "El Financiero report", labelLoc = "bottom", color = "purple")%>%
+dyEvent("2020-04-26", "Peak Gap", labelLoc = "top", color = "blue")%>%
+  
+dyOptions(colors = RColorBrewer::brewer.pal(3, "Set2")))
+
+htmltools::browsable(htmltools::tagList(dy_graph2))
+
+
+```
+
+National media start to report on the gap issue as early as April the 20th 2020. Six days latter the peak was reached and the information gap slowly moved downwards. Recently we observe not an increasing gap but rather a constant gap. To what extent this behavior  reflects a "delay" in reporting? That's an interesting question that was the focus of attention in the early days.    
+
+## Modeling the outbreak path for confirmed cases México.
+
+```{r, echo=FALSE, fig.height = 7, fig.width = 9.4}
+tasa_a<-mutate(mxrate,rate=(logs-basedate)*100)%>%
+  rename(Actual=ctotal, Cumulative.growth.rate=rate, lethality=lmx)%>%
+  select(-logs)
+
+dates<-data.frame(d=seq(as.Date("2020/02/28"), by = "day", length.out = 716))
+
+### The start date, do not need to be updated,   just adjust the lenght to match the current day. Yjat is increment the length.out = x, to teh appropaite number to mach today's date.
+
+
+y<-select(tasa_a,-c(fecha,Cumulative.growth.rate ))%>%
+rename(deaths=dtotal)
+
+y<- xts(x = y, order.by = dates$d)
+
+yhw <- ts(tasa_a$Actual, frequency=7)
+hw <- HoltWinters(yhw)
+
+dates<-data.frame(d=seq(as.Date("2022/02/14"), by = "day", length.out = 30))
+
+## This date series,  needs to be one day ahead of dates in line 1062, That is the forcast  starts one day  after the observed  data!!!
+
+p <- predict(hw, n.ahead = 30, prediction.interval = TRUE)
+
+p<-data.frame(p)
+p<- xts(x = p, order.by = dates$d)
+
+all<-cbind(y,p)
+
+
+dygraph(all, main = "Predicted covid19 cases (MX)") %>%
+  dyRangeSelector()%>%
+    dyHighlight(highlightCircleSize = 3, 
+              highlightSeriesBackgroundAlpha = 0.2,
+              hideOnMouseOut = FALSE)%>%  
+dySeries("Actual", label = "Cases") %>%
+  dySeries(c("lwr", "fit", "upr"), label = "Predicted")%>%
+  dySeries("lethality", axis = 'y2')%>%
+  dyLegend(width = 400)
+```  
+
+Given the available information on the trajectory of the cases, we may expect to reach 32 286 cases by May the 10th 2020, with a lower bound of 27 791, and upper limit at: 39 109 as the worst-case scenario. It would all depend on,  among other factors the measures implemented by health authorities in each state and also the growth rate on the US.
+
+An updated forcats indicates 5.93 million cases by March 11th 2022.
+
+
+
+
+
+
+
+
+
+References:
+
+[Datos Abiertos Mexico](https://www.gob.mx/salud/documentos/datos-abiertos-152127)
+
+Data set compilation by Gabriel Alfonso Carranco-Sapiéns, based on official data from daily technical press reports. [Github repository](https://github.com/carranco-sga).
+
